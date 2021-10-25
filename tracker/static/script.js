@@ -14,7 +14,7 @@ $(document).ready(function(){
         function(data){
             let found = false;
             for (let i in data){
-                if (data[i].provinsi === inp){
+                if (data[i].provinsi.toLowerCase() === inp.toLowerCase()){
                     $('#prov-name').text(data[i].provinsi);
                     $('#jumlah_positif_prov').text(data[i].kasus);
                     $('#jumlah_sembuh_prov').text(data[i].sembuh);
