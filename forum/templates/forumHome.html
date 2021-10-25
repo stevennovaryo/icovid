@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forum | ICovid</title>
+  </head>
+  <body>
+      <a href="postToForum/">Tambah Thread Baru</a>
+    {% for f in forumPost %}
+        <h1>Title: {{f.topic}}</h1>
+        <h2>desc: {{f.description}}</h2>
+        <h3>timestamp: {{f.date_created}}</h3>
+    {% endfor %}  
+  </body>
+</html>
