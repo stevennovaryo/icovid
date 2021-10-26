@@ -3,9 +3,9 @@ $(document).ready(function(){
 
     $.getJSON("https://apicovid19indonesia-v2.vercel.app/api/indonesia", 
     function(data){
-        $('#jumlah_positif').text(data.positif);
-        $('#jumlah_sembuh').text(data.sembuh);
-        $('#jumlah_meninggal').text(data.meninggal);
+        $('#jumlah_positif').text(data.positif.toLocaleString("en-US"));
+        $('#jumlah_sembuh').text(data.sembuh.toLocaleString("en-US"));
+        $('#jumlah_meninggal').text(data.meninggal.toLocaleString("en-US"));
     });
 
     $.getJSON("http://apicovid19indonesia-v2.vercel.app/api/indonesia/harian", 
@@ -39,9 +39,9 @@ $(document).ready(function(){
             for (let i in data){
                 if (data[i].provinsi.toLowerCase() === inp.toLowerCase()){
                     $('#prov-name').text(data[i].provinsi);
-                    $('#jumlah_positif_prov').text(data[i].kasus);
-                    $('#jumlah_sembuh_prov').text(data[i].sembuh);
-                    $('#jumlah_meninggal_prov').text(data[i].meninggal);
+                    $('#jumlah_positif_prov').text(data[i].kasus.toLocaleString("en-US"));
+                    $('#jumlah_sembuh_prov').text(data[i].sembuh.toLocaleString("en-US"));
+                    $('#jumlah_meninggal_prov').text(data[i].meninggal.toLocaleString("en-US"));
                     found = true;
                     break;
                 }
