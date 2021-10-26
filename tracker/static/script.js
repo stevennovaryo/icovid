@@ -10,11 +10,15 @@ $(document).ready(function(){
 
     $.getJSON("http://apicovid19indonesia-v2.vercel.app/api/indonesia/harian", 
     function(data){
-        const dataset = [];
+        const dataset_positif = [];
+        const dataset_sembuh = [];
+        const dataset_meninggal = [];
         const dateset = [];
-        for (let i = data.length-7; i < data.length; i++){
-            dataset.push(data[i].positif_kumulatif);
-            dateset.push(data[i].tanggal);
+        for (let i = data.length-30; i < data.length; i++){
+            dataset_positif.push(data[i].positif_kumulatif);
+            dataset_sembuh.push(data[i].sembuh_kumulatif);
+            dataset_meninggal.push(data[i].meninggal_kumulatif);
+            dateset.push(data[i].tanggal.split('T')[0]);
         }
 
         const indo_chart = document.getElementById('indo_chart').getContext('2d');
@@ -24,8 +28,20 @@ $(document).ready(function(){
             data: {
                 labels: dateset,
                 datasets: [{
-                    label: 'positif',
-                    data: dataset
+                    label: 'Positif',
+                    data: dataset_positif,
+                    backgroundColor: 'rgb(255, 188, 188)',
+                    borderColor: 'rgb(255, 188, 188)'
+                },{
+                    label: 'Sembuh',
+                    data: dataset_sembuh,
+                    backgroundColor: 'rgb(40, 255, 191)',
+                    borderColor: 'rgb(40, 255, 191)'
+                },{
+                    label: 'Meninggal',
+                    data: dataset_meninggal,
+                    backgroundColor: 'rgb(243, 139, 160)',
+                    borderColor: 'rgb(243, 139, 160)'
                 }]
             }
         })
