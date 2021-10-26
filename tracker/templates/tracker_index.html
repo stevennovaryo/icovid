@@ -34,8 +34,10 @@
             <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Grafik Kumulatif Harian</h2>
             <canvas id="indo_chart"></canvas>
 
+            <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Cek Data Provinsi</h2>
+
             {% if user.is_authenticated %}
-                <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Cek Data Provinsi</h2>
+                
                 <div class="row">
                     <div class="col-auto">
                         <label for="input_prov">Provinsi</label>
@@ -69,7 +71,7 @@
                     </div>
                 </div>
             {% else %}
-                <p>Login untuk menggunakan fitur cek data provinsi</p>
+                <p>Silahkan Login untuk menggunakan fitur cek data provinsi</p>
             {% endif %}
 
             
