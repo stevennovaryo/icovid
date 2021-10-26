@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $("#prov_container").hide();
+    let new_chart = null;
+    let active_chart = 'positif';
 
     $.getJSON("https://apicovid19indonesia-v2.vercel.app/api/indonesia", 
     function(data){
@@ -23,7 +25,7 @@ $(document).ready(function(){
 
         const indo_chart = document.getElementById('indo_chart').getContext('2d');
 
-        const new_chart = new Chart(indo_chart, {
+        new_chart = new Chart(indo_chart, {
             type: 'line',
             data: {
                 labels: dateset,
@@ -36,16 +38,55 @@ $(document).ready(function(){
                     label: 'Sembuh',
                     data: dataset_sembuh,
                     backgroundColor: 'rgb(40, 255, 191)',
-                    borderColor: 'rgb(40, 255, 191)'
+                    borderColor: 'rgb(40, 255, 191)',
+                    hidden: true
                 },{
                     label: 'Meninggal',
                     data: dataset_meninggal,
                     backgroundColor: 'rgb(243, 139, 160)',
-                    borderColor: 'rgb(243, 139, 160)'
+                    borderColor: 'rgb(243, 139, 160)',
+                    hidden: true
                 }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
             }
         })
     });
+
+    $("#btnradio1").click(function(){
+        if (active_chart != 'positif'){
+            active_chart = 'positif';
+            new_chart.data.datasets[0].hidden = false;
+            new_chart.data.datasets[1].hidden = true;
+            new_chart.data.datasets[2].hidden = true;
+            new_chart.update();
+        }
+    })
+
+    $("#btnradio2").click(function(){
+        if (active_chart != 'sembuh'){
+            active_chart = 'sembuh';
+            new_chart.data.datasets[0].hidden = true;
+            new_chart.data.datasets[1].hidden = false;
+            new_chart.data.datasets[2].hidden = true;
+            new_chart.update();
+        }
+    })
+
+    $("#btnradio3").click(function(){
+        if (active_chart != 'meninggal'){
+            active_chart = 'meninggal';
+            new_chart.data.datasets[0].hidden = true;
+            new_chart.data.datasets[1].hidden = true;
+            new_chart.data.datasets[2].hidden = false;
+            new_chart.update();
+        }
+    })
 
     $("#button_prov").click(function(){
         const inp = $("#input_prov").val();

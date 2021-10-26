@@ -32,7 +32,17 @@
                 </div>
             </div>
             <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Grafik Kumulatif Harian</h2>
-            <canvas id="indo_chart"></canvas>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Positif</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Sembuh</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Meninggal</label>
+            </div>
+            <canvas id="indo_chart" style="padding: 1em 0 0.5em 0;"></canvas>
 
             <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Cek Data Provinsi</h2>
 
