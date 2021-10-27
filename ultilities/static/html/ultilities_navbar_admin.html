@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/navbar.css' %}" />
+  </head>
+  <body>
+    <header>
+      <a href="#home" style="margin-right: auto;"><img class="logo" src="{% static 'images/icovid-logo.png' %}" alt="logo" /></a>
+      <div class="dropdown">
+        <button class="dropbutton">Admin</button>
+        <div class="dropcontent">
+          <a href="#article"     >Post article</a>
+          <a href="#announcement">Make announcement</a>
+          <a href="#log"         >See log</a>
+        </div>
+      </div> 
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home"     >Home</a></li>  
+          <li><a href="#news"     >News</a></li>
+          <li><a href="#forum"    >Forum</a></li>
+          <li><a href="#tracking" >Tracking</a></li>  
+        </ul>
+      </nav>
+    </header>  
+  </body>
+</html>
