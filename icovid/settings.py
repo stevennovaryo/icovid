@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'profileapp',
-    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -132,12 +130,6 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 django_heroku.settings(locals())
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # where are uploaded files will be localted on file system
-MEDIA_URL = '/media/'
-
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
