@@ -1,7 +1,8 @@
 from django import forms
 from django.http import response
 from django.shortcuts import render
-from django.http.response import HttpResponse
+from django.http.response import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
 from .forms import FilterForm
 from .models import TrackerFilter
 
@@ -16,6 +17,7 @@ def index(request):
                 numberOfData = form.cleaned_data['number_of_data']
                 tmp = TrackerFilter(user=request.user, chart_type=chartType, number_of_data=numberOfData)
                 tmp.save()
+                return HttpResponseRedirect(reverse("index"))
         else:
             if not hasattr(request.user, 'trackerfilter'):
                 tmp = TrackerFilter(user=request.user, chart_type=1, number_of_data=7)
