@@ -20,7 +20,7 @@ $(document).ready(function(){
         const dataset_sembuh2 = [];
         const dataset_meninggal2 = [];
         const dateset = [];
-        for (let i = data.length-30; i < data.length; i++){
+        for (let i = data.length-dataCount; i < data.length; i++){
             dataset_positif.push(data[i].positif_kumulatif);
             dataset_sembuh.push(data[i].sembuh_kumulatif);
             dataset_meninggal.push(data[i].meninggal_kumulatif);
@@ -30,113 +30,135 @@ $(document).ready(function(){
             dateset.push(data[i].tanggal.split('T')[0]);
         }
 
-        const indo_chart = document.getElementById('indo_chart').getContext('2d');
-        const indo_chart2 = document.getElementById('indo_chart2').getContext('2d');
+        let indo_chart = document.getElementById('indo_chart');
+        let indo_chart2 = document.getElementById('indo_chart2');
+        if (indo_chart != null){
+            indo_chart = indo_chart.getContext('2d');
+        }
+        if (indo_chart2 != null){
+            indo_chart2 = indo_chart2.getContext('2d');
+        }
 
-        new_chart = new Chart(indo_chart, {
-            type: 'line',
-            data: {
-                labels: dateset,
-                datasets: [{
-                    label: 'Positif',
-                    data: dataset_positif,
-                    backgroundColor: 'rgb(255, 188, 188)',
-                    borderColor: 'rgb(255, 188, 188)'
-                },{
-                    label: 'Sembuh',
-                    data: dataset_sembuh,
-                    backgroundColor: 'rgb(40, 255, 191)',
-                    borderColor: 'rgb(40, 255, 191)',
-                    hidden: true
-                },{
-                    label: 'Meninggal',
-                    data: dataset_meninggal,
-                    backgroundColor: 'rgb(243, 139, 160)',
-                    borderColor: 'rgb(243, 139, 160)',
-                    hidden: true
-                }]
-            },
-            options: {
-                plugins: {
-                    legend: {
-                        display: false
+        if (indo_chart != null){
+            new_chart = new Chart(indo_chart, {
+                type: 'line',
+                data: {
+                    labels: dateset,
+                    datasets: [{
+                        label: 'Positif',
+                        data: dataset_positif,
+                        backgroundColor: 'rgb(255, 188, 188)',
+                        borderColor: 'rgb(255, 188, 188)'
+                    },{
+                        label: 'Sembuh',
+                        data: dataset_sembuh,
+                        backgroundColor: 'rgb(40, 255, 191)',
+                        borderColor: 'rgb(40, 255, 191)',
+                        hidden: true
+                    },{
+                        label: 'Meninggal',
+                        data: dataset_meninggal,
+                        backgroundColor: 'rgb(243, 139, 160)',
+                        borderColor: 'rgb(243, 139, 160)',
+                        hidden: true
+                    }]
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
                     }
                 }
-            }
-        })
-
-        new_chart2 = new Chart(indo_chart2, {
-            type: 'line',
-            data: {
-                labels: dateset,
-                datasets: [{
-                    label: 'Positif',
-                    data: dataset_positif2,
-                    backgroundColor: 'rgb(255, 188, 188)',
-                    borderColor: 'rgb(255, 188, 188)'
-                },{
-                    label: 'Sembuh',
-                    data: dataset_sembuh2,
-                    backgroundColor: 'rgb(40, 255, 191)',
-                    borderColor: 'rgb(40, 255, 191)',
-                    hidden: true
-                },{
-                    label: 'Meninggal',
-                    data: dataset_meninggal2,
-                    backgroundColor: 'rgb(243, 139, 160)',
-                    borderColor: 'rgb(243, 139, 160)',
-                    hidden: true
-                }]
-            },
-            options: {
-                plugins: {
-                    legend: {
-                        display: false
+            })
+        }
+        if (indo_chart2 != null){
+            new_chart2 = new Chart(indo_chart2, {
+                type: 'line',
+                data: {
+                    labels: dateset,
+                    datasets: [{
+                        label: 'Positif',
+                        data: dataset_positif2,
+                        backgroundColor: 'rgb(255, 188, 188)',
+                        borderColor: 'rgb(255, 188, 188)'
+                    },{
+                        label: 'Sembuh',
+                        data: dataset_sembuh2,
+                        backgroundColor: 'rgb(40, 255, 191)',
+                        borderColor: 'rgb(40, 255, 191)',
+                        hidden: true
+                    },{
+                        label: 'Meninggal',
+                        data: dataset_meninggal2,
+                        backgroundColor: 'rgb(243, 139, 160)',
+                        borderColor: 'rgb(243, 139, 160)',
+                        hidden: true
+                    }]
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
                     }
                 }
-            }
-        })
+            })
+        }
+        
     });
 
     $("#btnradio1").click(function(){
         if (active_chart != 'positif'){
             active_chart = 'positif';
-            new_chart.data.datasets[0].hidden = false;
-            new_chart.data.datasets[1].hidden = true;
-            new_chart.data.datasets[2].hidden = true;
-            new_chart.update();
-            new_chart2.data.datasets[0].hidden = false;
-            new_chart2.data.datasets[1].hidden = true;
-            new_chart2.data.datasets[2].hidden = true;
-            new_chart2.update();
+            if (new_chart != null){
+                new_chart.data.datasets[0].hidden = false;
+                new_chart.data.datasets[1].hidden = true;
+                new_chart.data.datasets[2].hidden = true;
+                new_chart.update();
+            }
+            if (new_chart2 != null){
+                new_chart2.data.datasets[0].hidden = false;
+                new_chart2.data.datasets[1].hidden = true;
+                new_chart2.data.datasets[2].hidden = true;
+                new_chart2.update();
+            }  
         }
     })
 
     $("#btnradio2").click(function(){
         if (active_chart != 'sembuh'){
             active_chart = 'sembuh';
-            new_chart.data.datasets[0].hidden = true;
-            new_chart.data.datasets[1].hidden = false;
-            new_chart.data.datasets[2].hidden = true;
-            new_chart.update();
-            new_chart2.data.datasets[0].hidden = true;
-            new_chart2.data.datasets[1].hidden = false;
-            new_chart2.data.datasets[2].hidden = true;
-            new_chart2.update();
+            if (new_chart != null){
+                new_chart.data.datasets[0].hidden = true;
+                new_chart.data.datasets[1].hidden = false;
+                new_chart.data.datasets[2].hidden = true;
+                new_chart.update();
+            }
+            if (new_chart2 != null){
+                new_chart2.data.datasets[0].hidden = true;
+                new_chart2.data.datasets[1].hidden = false;
+                new_chart2.data.datasets[2].hidden = true;
+                new_chart2.update();
+            } 
         }
     })
 
     $("#btnradio3").click(function(){
         if (active_chart != 'meninggal'){
             active_chart = 'meninggal';
-            new_chart.data.datasets[0].hidden = true;
-            new_chart.data.datasets[1].hidden = true;
-            new_chart.data.datasets[2].hidden = false;
-            new_chart.update();
-            new_chart2.data.datasets[0].hidden = true;
-            new_chart2.data.datasets[1].hidden = true;
-            new_chart2.data.datasets[2].hidden = false;
-            new_chart2.update();
+            if (new_chart != null){
+                new_chart.data.datasets[0].hidden = true;
+                new_chart.data.datasets[1].hidden = true;
+                new_chart.data.datasets[2].hidden = false;
+                new_chart.update();
+            }
+            if (new_chart2 != null){
+                new_chart2.data.datasets[0].hidden = true;
+                new_chart2.data.datasets[1].hidden = true;
+                new_chart2.data.datasets[2].hidden = false;
+                new_chart2.update();
+            } 
         }
     })
 

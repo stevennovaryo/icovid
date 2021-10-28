@@ -6,6 +6,9 @@
         <title>Tracker</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         {% load static %}
+        <script>
+            const dataCount = {{ number_of_data }};
+        </script>
         <script src="{% static 'script.js' %}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
@@ -32,7 +35,13 @@
                 </div>
             </div>
 
-            <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Grafik Kumulatif Harian</h2>
+            {% if chart_type == 1 %}
+                <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Grafik Kumulatif Harian</h2>
+                <canvas id="indo_chart" style="padding: 1em 0 0.5em 0;"></canvas>
+            {% else %}
+                <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Grafik Harian</h2>
+                <canvas id="indo_chart2" style="padding: 1em 0 0.5em 0;"></canvas>
+            {% endif %}
             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                 <label class="btn btn-outline-primary" for="btnradio1">Positif</label>
@@ -43,20 +52,6 @@
                 <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btnradio3">Meninggal</label>
             </div>
-            <canvas id="indo_chart" style="padding: 1em 0 0.5em 0;"></canvas>
-
-            <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Grafik Harian</h2>
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-                <label class="btn btn-outline-primary" for="btnradio1">Positif</label>
-              
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio2">Sembuh</label>
-              
-                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btnradio3">Meninggal</label>
-            </div>
-            <canvas id="indo_chart2" style="padding: 1em 0 0.5em 0;"></canvas>
 
             <h2 style="padding: 1em 0 0.5em 0; text-align: center;">Cek Data Provinsi</h2>
 
