@@ -54,7 +54,7 @@
             </div>
 
             {% if user.is_authenticated %}
-                <form>
+                <form action="" method="POST">
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#filterform">
                         Chart Settings
                     </button>
@@ -67,6 +67,7 @@
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
+                                {% csrf_token %}
                               {{ form }}
                             </div>
                             <div class="modal-footer">
