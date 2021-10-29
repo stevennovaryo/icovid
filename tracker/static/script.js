@@ -67,6 +67,10 @@ $(document).ready(function(){
                     plugins: {
                         legend: {
                             display: false
+                        },
+                        title: {
+                            display: true,
+                            text: "Grafik Kumulatif Harian"
                         }
                     }
                 }
@@ -100,6 +104,10 @@ $(document).ready(function(){
                     plugins: {
                         legend: {
                             display: false
+                        },
+                        title: {
+                            display: true,
+                            text: "Grafik Harian"
                         }
                     }
                 }
