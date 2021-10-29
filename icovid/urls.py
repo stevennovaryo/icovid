@@ -21,5 +21,6 @@ import forum.urls as forum
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
-    path('forum/', include(forum))
+    path('forum/', include(forum)),
+    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
 ]
