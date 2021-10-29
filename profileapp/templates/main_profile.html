@@ -1,0 +1,48 @@
+{% extends "base_profile.html" %} {% load crispy_forms_tags %} {% load static %} 
+{% block content %}
+
+{% if user.is_authenticated %}
+<div class="justify-content-center flex-wrap">
+    <div class="card-header bg-gradient" style="text-align: center; border-radius: 0.5%;">
+        <h1 style="color:white; padding: 1em 0 0.5em 0; text-align: center;">{{ user.profile.name }} Profile</h1>
+        <br>
+        <img src="{{ user.profile.avatar.url }}" class="card-img-top rounded-circle" alt="profile picture"  style="max-height:400px;width:350px;object-fit: cover; border-radius: 1%;">
+    <div class="card-body">
+        <h4 class="card-title" style="text-align: center; color: #83aae1;">@{{ user.username }}</h4>
+        <p class="card-title-desc" style="text-align: center; color: white;"> {{ user.profile.name }} </p>
+        <a href="http://127.0.0.1:8000/profileapp/edit-profile/" class="border-bottom btn btn-secondary text-center"> Edit Profile</a>
+    </div>
+</div>
+    <div class="card">
+        <div class="card-body" style="text-align: center;">
+            <h4 class="card-title" style="text-align: center; color: #58718f; font-weight: bold;"> About {{ user.profile.name }} </h4>
+            <hr style="width:100%;text-align:center;">
+            <h6 class="card-text"><i class="fa fa-envelope" style="font-size:22px;color:red"></i> {{ user.profile.email }} </h6>
+            <h6 class="card-text"><i class="fa fa-phone" style="font-size:24px;color:red"></i> {{ user.profile.phone }} </h6>
+            <h6 class="card-text"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i> {{ user.profile.city }} </h6>
+            <h6 class="card-text"> Bio: <br> {{ user.profile.bio }}</h6>
+            <h6 class="card-text-box"> Vaccination Status: {{ user.profile.vaccinated_status }}</h6>
+            <h6 class="card-text-box"> Health Status: {{ user.profile.status }}</h6>
+            <p class="card-text-acc"> account created on: <br> {{ user.profile.created_at}}</p>
+        </div>
+        <!-- AJAX --> 
+        <div style="text-align: center;">
+            <script text='javascript'>
+                if(navigator.onLine != 'true') {
+                    alert("Welcome to your profile!");
+                    document.write("🟢 Online");
+                }
+                else if (navigator.onLine == 'true') {
+                    alert("Welcome to your profile!");
+                    document.write("🔴 Offline");
+                }
+            </script>
+        </div>
+    </div>
+</div>
+
+{% else %}
+<h4> Please signup or login to see more! </h4>
+{% endif %}
+
+{% endblock content %}

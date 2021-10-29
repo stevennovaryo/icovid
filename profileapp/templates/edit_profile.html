@@ -1,0 +1,76 @@
+{% extends "base_profile.html" %} {% load crispy_forms_tags %} {% load static %} 
+{% block content %}
+<div class="edit bg-gradient">
+  <div class="media">
+    <div class="text-center">
+      <h1 class="fw-bolder" style="color:white; padding: 1em 0 0.5em 0;"> {{ user.profile.name }} Custome Profile</h1>
+    </div>
+    <br>
+    <div class="media-body">
+        <h3 class="account-heading" style=" color: whitesmoke; text-align: center;">@{{ user.username }}</h3>
+    </div>
+    <br>
+  </div>
+  <!-- FORM -->
+  <div class="row gx-5 justify-content-center" style="color: #83aae1; font-weight: 500; font-size: 17px;">
+    <div class="col-md-8">
+      <!-- method -->
+      <form method="POST" enctype="multipart/form-data">
+          <div class="form" id="profile-form">
+            {% csrf_token %}
+            <!-- #1 -->
+            <div class="container">
+              <div id= "avatar-box" style="text-align: center;">
+                <img class="rounded-circle" src="{{ user.profile.avatar.url }}" style="max-height:350px;width:350px;object-fit: cover;" alt="profile picture"/>
+                <div class="p-2">{{ profile_form.avatar|as_crispy_field }} </div>
+              </div>
+            </div>
+            <!-- #2 -->
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="order-1 p-2">{{ user_form|crispy }} </div>
+              </div>
+            </div>
+            <!-- #3 -->
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="order-1 p-2"> {{ profile_form.name|as_crispy_field }} </div>
+                <div class="order-2 p-2"> {{ profile_form.email|as_crispy_field }} </div>
+              </div>
+            </div>
+            <!-- #4 -->
+            </div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="order-1 p-2"> {{ profile_form.phone|as_crispy_field }} </div>
+                <div class="order-2 p-2"> {{ profile_form.city|as_crispy_field }} </div>
+              </div>
+            </div>
+            <!-- #5 -->
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="order-1 p-2"> {{ profile_form.bio|as_crispy_field }} </div>
+              </div>
+            </div>
+            <!-- #6 -->
+            <div class="container">
+              <div class="d-flex justify-content-center">
+                <div class="order-1 p-2"> {{ profile_form.status|as_crispy_field }} </div>
+                <div class="order-1 p-2"> {{ profile_form.vaccinated_status|as_crispy_field }} </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- #7 -->
+          <div class="container">
+            <div class="d-flex justify-content-center">
+              <div class="order-1 p-2">
+                <button class="btn btn-outline-primary" type="submit" id="btnsave">Save Changes</button>
+              </div>
+              <div class="order-1 p-2">
+                <button class="btn btn-outline-danger" type="reset">Cancel</button></div>
+            </div>
+          </div>
+      </form>
+  </div>
+</div>
+{% endblock content %}
