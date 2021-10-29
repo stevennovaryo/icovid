@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'icovid.authentication',
+    'authentication',
     'crispy_forms',
     'django_cas_ng',
 ]
@@ -113,7 +113,7 @@ CAS_FORCE_CHANGE_USERNAME_CASE = 'lower'
 
 # SSO-UI configuration
 
-SSO_UI_ORG_DETAIL_FILE_PATH = "icovid/authentication/static/org_codes.json"
+SSO_UI_ORG_DETAIL_FILE_PATH = "authentication/static/org_codes.json"
 SSO_UI_ORG_DETAIL_LANG = "id"
 
 

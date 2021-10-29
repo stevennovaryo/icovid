@@ -7,12 +7,6 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django_cas_ng.signals import cas_user_authenticated
 
-LANG = settings.SSO_UI_ORG_DETAIL_LANG
-ORG_CODE = {}
-with open(settings.SSO_UI_ORG_DETAIL_FILE_PATH, 'r') as ORG_CODE_FILE:
-  ORG_CODE.update(json.load(ORG_CODE_FILE))
-
-
 @receiver(cas_user_authenticated)
 def save_cas_user_attributes(user, attributes, **kwargs):
   """Save attributes for user that authenticated from CAS"""

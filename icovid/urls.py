@@ -19,6 +19,6 @@ from .views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('auth/', include(('icovid.authentication.urls', 'icovid.authentication'), namespace='authentication')),
+    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
     path('', index)
 ]
