@@ -5,4 +5,4 @@ from .models import ForumPost
 class ForumForm(forms.ModelForm):
     class Meta:
         model = ForumPost
-        fields = ['topic', 'description']
+        fields = ['topic', 'description', 'slug']
