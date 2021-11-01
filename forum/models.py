@@ -1,13 +1,15 @@
 from django.db import models
 from django.utils.text import slugify
+from django.contrib.auth.models import User
 # Create your models here.
 class ForumPost(models.Model):
     # TODO : implement how to get current user
     # main content of the Forum Post
+    author = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
     topic = models.CharField(max_length=140)
-    description = models.CharField(max_length=1000)
+    description = models.TextField()
     date_created = models.DateTimeField(auto_now_add=True,null=True)
-    slug = models.SlugField(default=slugify(topic))
+    slug = models.SlugField(default=slugify(topic), unique=True)
 
     def __str__(self):
         return self.topic
@@ -19,3 +21,10 @@ class ForumPost(models.Model):
             return self.description[:100] + "..."
 
 # TODO: implement the thread class
+class Comment(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
+    parentForum = models.ForeignKey(ForumPost, on_delete=models.CASCADE, default=None)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.description[:20]

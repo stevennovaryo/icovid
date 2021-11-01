@@ -5,8 +5,16 @@
     <title>Forum | ICovid</title>
   </head>
   <body>
+    <p><a href="..">Forum Home</a></p>
     <h1>{{forumPost.topic}}</h1>
-    <h2>desc: {{forumPost.description}}</h2>
+    <h2>{{forumPost.description}}</h2>
     <h3>timestamp: {{forumPost.date_created}}</h3>
+    <h3> {{forumPost.author}} </h3>
+    <h3><a href= "./postComment">Tambahkan Komentar</a></h3>
+
+    {% for c in comments%}
+        <h3>{{c.description}}</h3>
+        <p>{{c.author}}</p>
+    {% endfor %}
   </body>
 </html>

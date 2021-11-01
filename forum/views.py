@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    forumPost = ForumPost.objects.all()
+    forumPost = ForumPost.objects.all().order_by('-date_created')
     response = {'forumPost': forumPost}
     return render(request, 'forumHome.html', response)
 
@@ -15,7 +15,9 @@ def post_to_forum(request):
 
     if request.method == 'POST':
         if form.is_valid():
-            form.save()
+            instance = form.save(commit=False)
+            instance.author = request.user
+            instance.save()
             return redirect('/forum/')
     
     context = dict()
@@ -27,4 +29,20 @@ def forum_post_detail(request, slug):
     # return HttpResponse(slug)
 
     forumPost = ForumPost.objects.get(slug=slug)
-    return render(request, 'forumDetail.html', {'forumPost':forumPost})
+    comments = Comment.objects.all().filter(parentForum=forumPost)
+    return render(request, 'forumDetail.html', {'forumPost':forumPost, 'comments':comments})
+
+def post_comment(request, slug):
+    form = CommentForm(request.POST)
+
+    if request.method == 'POST':
+        if form.is_valid():
+            instance = form.save(commit=False)
+            instance.author = request.user
+            instance.parentForum = ForumPost.objects.get(slug=slug)
+            instance.save()
+            return redirect('/forum/' + slug)
+    
+    context = dict()
+    context["form"] = form
+    return render(request, "postComment.html", context)

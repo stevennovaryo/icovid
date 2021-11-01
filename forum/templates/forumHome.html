@@ -10,6 +10,7 @@
         <h1><a href="{% url 'forum:detail' slug=f.slug %}">{{f.topic}}</a></h1>
         <h2>desc: {{f.snippets}}</h2>
         <h3>timestamp: {{f.date_created}}</h3>
+        <p>author: {{f.author}} </p>
     {% endfor %}  
   </body>
 </html>
