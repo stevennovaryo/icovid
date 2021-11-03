@@ -12,7 +12,7 @@ from . import schema as schema
 
 def loginView(request):
   if(request.user.is_authenticated):
-    return redirect('/')
+    return redirect('/home')
   
   prop = {
     'type': 'login',
