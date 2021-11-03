@@ -13,8 +13,8 @@
         <!-- <link href="{% static 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' %}" rel="stylesheet" /> -->
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'styles.css' %}" rel="stylesheet" />
-        <!-- Custom css -->
-  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <style>
             ul#ratings li{
                 display: inline-block;
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center" style="background-color:white ; border-radius: 10px;" ><canvas id="indo_chart" style="padding: 1em 0 0.5em 0;"></canvas></div>
                     </div>
                 </div>
             </header>
@@ -356,6 +356,47 @@
         Bootstrap core JS
         <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
         <!-- Core theme JS-->
+        <script>
+            $.getJSON("http://apicovid19indonesia-v2.vercel.app/api/indonesia/harian", 
+            function(data){
+                const banyakData = 7;
+                const dataset_positif2 = [];
+                const dataset_sembuh2 = [];
+                const dataset_meninggal2 = [];
+                const dateset = [];
+                for (let i = data.length-banyakData; i < data.length; i++){
+                    dataset_positif2.push(data[i].positif);
+                    dataset_sembuh2.push(data[i].sembuh);
+                    dataset_meninggal2.push(data[i].meninggal);
+                    dateset.push(data[i].tanggal.split('T')[0]);
+                }
+        
+                const indo_chart = document.getElementById('indo_chart').getContext('2d');
+                const new_chart = new Chart(indo_chart, {
+                    type: 'line',
+                    data: {
+                        labels: dateset,
+                        datasets: [{
+                            label: 'Positif',
+                            data: dataset_positif2,
+                            backgroundColor: 'rgb(255, 188, 188)',
+                            borderColor: 'rgb(255, 188, 188)'
+                        },{
+                            label: 'Sembuh',
+                            data: dataset_sembuh2,
+                            backgroundColor: 'rgb(40, 255, 191)',
+                            borderColor: 'rgb(40, 255, 191)',
+                        },{
+                            label: 'Meninggal',
+                            data: dataset_meninggal2,
+                            backgroundColor: 'rgb(243, 139, 160)',
+                            borderColor: 'rgb(243, 139, 160)',
+                        }]
+                    },
+                })
+                
+            });
+        </script>
         
     </body>
 </html>

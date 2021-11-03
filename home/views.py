@@ -17,7 +17,6 @@ def index(request):
     # check if form data is valid
     if form.is_valid():
         # save the form data to model
-       
         data = form.save(commit=False) #bisa return object
         data.user_id = User.objects.get(id=request.user.id)
         data.save()
