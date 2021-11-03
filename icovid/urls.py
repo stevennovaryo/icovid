@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from .views import index
-import ultilities.urls as ultilities
+import utilities.urls as utilities
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('admin/', include('ultilities.urls')),
+    path('administrator/', include('utilities.urls')),
 ]

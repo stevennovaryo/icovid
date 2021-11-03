@@ -4,7 +4,7 @@ body {
   background-color: #58718e;
 }
 
-header#ultilities {  
+header#utilities {  
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
@@ -12,7 +12,7 @@ header#ultilities {
   background-color: #83aae1;  
 }
 
-li#ultilities, a#ultilities, button#ultilities{
+li#utilities, a#utilities, button#utilities{
   font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -20,22 +20,22 @@ li#ultilities, a#ultilities, button#ultilities{
   text-decoration: none;
 }
 
-a#ultilities, button#ultilities {
+a#utilities, button#utilities {
   transition: all 0.3s ease 0s;
 }
 
-.navibar#ultilities {
+.navibar#utilities {
   overflow: hidden;
   background-color: #83aae1;
   list-style-type: none;
 }
 
-.navibar#ultilities li#ultilities {
+.navibar#utilities li#utilities {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.navibar#ultilities li#ultilities a#ultilities:hover {
+.navibar#utilities li#utilities a#utilities:hover {
   color: #2d1f2b;
 }
 
@@ -45,7 +45,7 @@ a#ultilities, button#ultilities {
   cursor: pointer;
 }
 
-button#ultilities {
+button#utilities {
   padding: 9px 25px;
   background-color: #c42d4a;
   border: none;
@@ -54,24 +54,24 @@ button#ultilities {
   margin-left: 20px;
 }
 
-button#ultilities:hover {
+button#utilities:hover {
   color: #2d1f2b;
 }
 
-.drop#ultilities {
+.drop#utilities {
   overflow: hidden;
 }
 
-.drop#ultilities .dbutton#ultilities { 
+.drop#utilities .dbutton#utilities { 
   padding: 5px 15px;
   margin: 0;
 }
 
-.drop#ultilities:hover .dbutton#ultilities {
+.drop#utilities:hover .dbutton#utilities {
   color: #2d1f2b;
 }
 
-.dcontent#ultilities {
+.dcontent#utilities {
   display: none;
   position: absolute;
   background-color: #83aae1;
@@ -80,7 +80,7 @@ button#ultilities:hover {
   z-index: 1;
 }
 
-.dcontent#ultilities a#ultilities {
+.dcontent#utilities a#utilities {
   padding: 12px 16px;
   color: #ffffff;
   background-color: #58718e;
@@ -89,11 +89,20 @@ button#ultilities:hover {
   text-align: left;
 }
 
-.dcontent#ultilities a#ultilities:hover {
+.dcontent#utilities a#utilities:hover {
   background-color: #ffffff;
   color: #2d1f2b;
 }
 
-.drop#ultilities:hover .dcontent#ultilities {
+.drop#utilities:hover .dcontent#utilities {
   display: block;
+}
+
+
+.form-container{
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px;
+  background-color: #ffffff;
+  margin-top: 30%;
 }

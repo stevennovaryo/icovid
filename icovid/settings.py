@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ultilities',
+    'utilities',
 ]
 
 MIDDLEWARE = [
@@ -138,17 +138,17 @@ django_heroku.settings(locals())
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# NEW ~
-# For making log (module ultilities)
+
+# For making log files (module utilities)
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
-    "root": {"level": "INFO", "handlers": ["file"]},
+    "root": {"level": "INFO", "handlers": ["file"]}, 
     "handlers": {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": "/log/web_log.log",
+            "filename": BASE_DIR/'utilities/log/icovid_log.log',
             "formatter": "app",
         },
     },
@@ -162,7 +162,7 @@ LOGGING = {
     "formatters": {
         "app": {
             "format": (
-                u"%(asctime)s [%(levelname)-8s] "
+                u"%(asctime)s [ %(levelname)-8s] "
                 "(%(module)s.%(funcName)s) %(message)s"
             ),
             "datefmt": "%Y-%m-%d %H:%M:%S",

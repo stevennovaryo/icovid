@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class UltilitiesConfig(AppConfig):
+class UtilitiesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'ultilities'
+    name = 'utilities'
