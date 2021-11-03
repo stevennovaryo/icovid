@@ -21,4 +21,6 @@ from .views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', include(('home.urls', 'home'), namespace='home')),
+    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
+    path('', index)
 ]
