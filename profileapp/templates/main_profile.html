@@ -16,16 +16,33 @@
     <div class="card">
         <div class="card-body" style="text-align: center;">
             <h4 class="card-title" style="text-align: center; color: #58718f; font-weight: bold;"> About {{ user.profile.name }} </h4>
-            <hr style="width:100%;text-align:center;">
-            <h6 class="card-text"><i class="fa fa-envelope" style="font-size:22px;color:red"></i> {{ user.profile.email }} </h6>
-            <h6 class="card-text"><i class="fa fa-phone" style="font-size:24px;color:red"></i> {{ user.profile.phone }} </h6>
-            <h6 class="card-text"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i> {{ user.profile.city }} </h6>
-            <h6 class="card-text"> Bio: <br> {{ user.profile.bio }}</h6>
-            <h6 class="card-text-box"> Vaccination Status: {{ user.profile.vaccinated_status }}</h6>
-            <h6 class="card-text-box"> Health Status: {{ user.profile.status }}</h6>
-            <p class="card-text-acc"> account created on: <br> {{ user.profile.created_at}}</p>
+            <hr style="width:100%; text-align:center;">
+            <div class="row">
+                <div class="col-sm-6" style="text-align: left;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-text"><i class="fa fa-envelope" style="font-size:22px;color:red"></i> {{ user.profile.email }} </h6>
+                            <h6 class="card-text"><i class="fa fa-phone" style="font-size:24px;color:red"></i> {{ user.profile.phone }} </h6>
+                            <h6 class="card-text"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i> {{ user.profile.city }} </h6>
+                            <hr style="width:100%; text-align:center;">
+                            <h6 class="card-text-acc"> account created since: </h6>
+                            <p>{{ user.profile.created_at}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6" style="text-align: left;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-text"> Bio: </h6>
+                                <p>{{ user.profile.bio }} </p>
+                            <hr style="width:100%; text-align:center;">
+                            <h6 class="card-text-box"> Health Status:</h6> <p> {{ user.profile.status }} </p>
+                            <h6 class="card-text-box"> Vaccination Status:</h6> <p> {{ user.profile.vaccinated_status }} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- AJAX --> 
         <div style="text-align: center;">
             <script text='javascript'>
                 if(navigator.onLine != 'true') {

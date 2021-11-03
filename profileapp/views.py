@@ -35,7 +35,24 @@ def profileupdate(request):
 
     return render(request, 'edit_profile.html', context)
 
+@login_required
 def profiledatas(request):
-    form = Profile.objects.all()
-    data = serializers.serialize('json', form)
-    return HttpResponse(data, content_type="application/json")
+    if request.method == "POST":
+        profile_form = ProfileUpdateForm(request.POST, request.FILES, instance=request.user.profile)
+        if profile_form.is_valid():
+            profile_form.save()
+            profilelist = []
+            data_dict = {}
+            data_dict['name'] = request.POST.get('name')
+            data_dict['email'] = request.POST.get('email')
+            data_dict['phone'] = request.POST.get('phone')
+            data_dict['city'] = request.POST.get('city')
+            data_dict['bio'] = request.POST.get('bio')
+            data_dict['status'] = request.POST.get('status')
+            data_dict['vaccinated_status'] = request.POST.get('vaccinated_status')
+            profilelist.append(data_dict)
+            return JsonResponse(data_dict, safe=False)
+    else:
+        form = Profile.objects.all()
+        data = serializers.serialize('json', form)
+        return HttpResponse(data)
