@@ -15,6 +15,7 @@
 
     </head>
      <!-- <p><a href="..">Forum Home</a></p> -->
+     {% include "utilities_choosing_navbar.html" %}
 
     <body class="d-flex flex-column" style="background-color:#58718E;">
         <main class="flex-shrink-0">
@@ -24,7 +25,7 @@
                     <div class="row gx-5">
                         <div class="col-lg-3">
                             <!-- <h2 class="fw-bolder fs-5 mb-4">iCovid Forum</h2> -->
-                            <div class="card border-0 h-25 bg-light">
+                            <div class="card border-0 h-100 bg-light">
                                 <div class="card-body p-4">
                                     <div class="d-flex h-100 align-items-center justify-content-center">
                                         <div class="text-center">
@@ -70,20 +71,22 @@
                             <!-- Comments section-->
                             <section>
                                 <div class="card bg-light">
-                                    <div class="card-body">
-                                        <a href= "./postComment">Tambahkan Komentar</a>
-                                    </div>
-                                    <!-- new comments -->
-                                    <form action="" method="POST" id="post-form"> {% csrf_token %}
-                                        <!-- Description input-->
-                                        <div class="form-floating mb-3">
-                                            <textarea class="form-control" id="desc" name="description" placeholder="Enter your message here..." style="height: 15rem"></textarea>
-                                            <label for="desc">Tambahkan komentar</label>
+                                    {% if user.is_authenticated %}
+                                        <div class="card-body">
+                                            <a href= "./postComment">Tambahkan Komentar</a>
                                         </div>
-                                        <!-- Submit Button-->
-                                        <input type="submit" value="Submit">
-                                        <!-- <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div> -->
-                                    </form>
+                                        <!-- new comments -->
+                                        <form action="" method="POST" id="post-form"> {% csrf_token %}
+                                            <!-- Description input-->
+                                            <div class="form-floating mb-3">
+                                                <textarea class="form-control" id="desc" name="description" placeholder="Enter your message here..." style="height: 15rem"></textarea>
+                                                <label for="desc">Tambahkan komentar</label>
+                                            </div>
+                                            <!-- Submit Button-->
+                                            <input type="submit" value="Submit">
+                                            <!-- <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div> -->
+                                        </form>
+                                    {% endif %}
                                     <div class="card-body comments">
                                         {% for c in comments%}
                                         <!-- Comment -->
