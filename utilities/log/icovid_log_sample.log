@@ -1,0 +1,974 @@
+2021-11-03 14:44:43 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 14:44:43 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 14:44:47 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 14:44:47 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 14:44:54 [ERROR   ] (log.log_response) Internal Server Error: /administrator/
+Traceback (most recent call last):
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py", line 22, in see_log
+    log_file = open('/log/icovid_log.log','r')
+FileNotFoundError: [Errno 2] No such file or directory: '/log/icovid_log.log'
+2021-11-03 14:44:54 [ERROR   ] (log.log_response) Internal Server Error: /administrator/
+Traceback (most recent call last):
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py", line 22, in see_log
+    log_file = open('/log/icovid_log.log','r')
+FileNotFoundError: [Errno 2] No such file or directory: '/log/icovid_log.log'
+2021-11-03 14:44:54 [ERROR   ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 500 63846
+2021-11-03 14:44:54 [ERROR   ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 500 63846
+2021-11-03 14:48:06 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py changed, reloading.
+2021-11-03 14:48:06 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py changed, reloading.
+2021-11-03 14:48:09 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 14:48:09 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 14:51:10 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py changed, reloading.
+2021-11-03 14:51:10 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py changed, reloading.
+2021-11-03 14:51:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 14:51:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 14:51:13 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 2397
+2021-11-03 14:51:13 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 2397
+2021-11-03 14:51:14 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:14 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:14 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:14 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:16 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 14:51:16 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 14:51:18 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 2397
+2021-11-03 14:51:18 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 2397
+2021-11-03 14:51:19 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:19 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:19 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:19 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:19 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:19 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:19 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:19 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:37 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 14:51:37 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 14:51:40 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 7925
+2021-11-03 14:51:40 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 7925
+2021-11-03 14:51:40 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:40 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:40 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:40 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:40 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:40 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:51:40 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:51:40 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:53:06 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 8970
+2021-11-03 14:53:06 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 8970
+2021-11-03 14:53:06 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:53:06 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:53:06 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:53:06 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:53:06 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:53:06 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 14:53:06 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 14:53:06 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:02:05 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py changed, reloading.
+2021-11-03 15:02:05 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py changed, reloading.
+2021-11-03 15:02:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 15:02:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 15:04:40 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:04:40 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:04:40 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 15:04:40 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 15:04:42 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 15743
+2021-11-03 15:04:42 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 15743
+2021-11-03 15:04:42 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:04:42 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:04:42 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:04:42 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:13:17 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:13:17 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:13:20 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 17053
+2021-11-03 15:13:20 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 17053
+2021-11-03 15:13:20 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:13:20 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:13:20 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:13:20 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:13:20 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:13:20 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:13:20 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:13:20 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:19:52 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 18637
+2021-11-03 15:19:52 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 18637
+2021-11-03 15:19:52 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:19:52 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:19:52 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:19:52 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:20:16 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:20:16 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:20:23 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:20:23 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 15:20:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 20303
+2021-11-03 15:20:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 20303
+2021-11-03 15:20:25 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:20:25 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:20:25 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:20:25 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:20:25 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:20:25 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:20:25 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:20:25 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:44:39 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 21670
+2021-11-03 15:44:39 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 21670
+2021-11-03 15:44:39 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:44:39 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 15:44:39 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 15:44:39 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:26 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47503
+2021-11-03 16:09:26 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47503
+2021-11-03 16:09:26 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 16:09:26 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 16:09:26 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:26 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:26 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:26 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:27 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:27 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:27 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:27 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:44 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 29357
+2021-11-03 16:09:44 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 29357
+2021-11-03 16:09:44 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:44 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:44 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:44 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:44 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:44 [WARNING ] (log.log_response) Not Found: /administrator/showLog.js
+2021-11-03 16:09:44 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:09:44 [WARNING ] (basehttp.log_message) "GET /administrator/showLog.js HTTP/1.1" 404 3073
+2021-11-03 16:11:22 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 31151
+2021-11-03 16:11:22 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 31151
+2021-11-03 16:11:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 31537
+2021-11-03 16:11:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 31537
+2021-11-03 16:12:50 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 31942
+2021-11-03 16:12:50 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 31942
+2021-11-03 16:14:32 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 32330
+2021-11-03 16:14:32 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 32330
+2021-11-03 16:15:18 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 32723
+2021-11-03 16:15:18 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 32723
+2021-11-03 16:15:30 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 33112
+2021-11-03 16:15:30 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 33112
+2021-11-03 16:16:08 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 33517
+2021-11-03 16:16:08 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 33517
+2021-11-03 16:16:39 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 33885
+2021-11-03 16:16:39 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 33885
+2021-11-03 16:17:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 34286
+2021-11-03 16:17:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 34286
+2021-11-03 16:19:06 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 34714
+2021-11-03 16:19:06 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 34714
+2021-11-03 16:19:50 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 35134
+2021-11-03 16:19:50 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 35134
+2021-11-03 16:19:51 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 35520
+2021-11-03 16:19:51 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 35520
+2021-11-03 16:20:26 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 35900
+2021-11-03 16:20:26 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 35900
+2021-11-03 16:20:35 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 36285
+2021-11-03 16:20:35 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 36285
+2021-11-03 16:20:42 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 36672
+2021-11-03 16:20:42 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 36672
+2021-11-03 16:20:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 37056
+2021-11-03 16:20:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 37056
+2021-11-03 16:21:16 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 37469
+2021-11-03 16:21:16 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 37469
+2021-11-03 16:21:17 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 37855
+2021-11-03 16:21:17 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 37855
+2021-11-03 16:21:31 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 38200
+2021-11-03 16:21:31 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 38200
+2021-11-03 16:21:54 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 38559
+2021-11-03 16:21:54 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 38559
+2021-11-03 16:22:33 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 16:22:33 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 16:22:35 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 39363
+2021-11-03 16:22:35 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 39363
+2021-11-03 16:24:42 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 39748
+2021-11-03 16:24:42 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 39748
+2021-11-03 16:24:53 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 40134
+2021-11-03 16:24:53 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 40134
+2021-11-03 16:26:25 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 16:26:25 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 16:26:29 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 40938
+2021-11-03 16:26:29 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 40938
+2021-11-03 16:48:22 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 16:48:22 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 16:48:24 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44553
+2021-11-03 16:48:24 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44553
+2021-11-03 16:49:02 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44759
+2021-11-03 16:49:02 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44759
+2021-11-03 16:51:10 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45363
+2021-11-03 16:51:10 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45363
+2021-11-03 17:03:09 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45775
+2021-11-03 17:03:09 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45775
+2021-11-03 17:05:01 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46183
+2021-11-03 17:05:01 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46183
+2021-11-03 17:20:30 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46709
+2021-11-03 17:20:30 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46709
+2021-11-03 17:20:31 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 17:20:31 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 17:20:38 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47347
+2021-11-03 17:20:38 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47347
+2021-11-03 17:20:40 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47757
+2021-11-03 17:20:40 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47757
+2021-11-03 17:22:08 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48179
+2021-11-03 17:22:08 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48179
+2021-11-03 17:22:12 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48589
+2021-11-03 17:22:12 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48589
+2021-11-03 17:26:27 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 49155
+2021-11-03 17:26:27 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 49155
+2021-11-03 17:40:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 41135
+2021-11-03 17:40:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 41135
+2021-11-03 17:41:14 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 41475
+2021-11-03 17:41:14 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 41475
+2021-11-03 17:41:27 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 41817
+2021-11-03 17:41:27 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 41817
+2021-11-03 17:41:34 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 42155
+2021-11-03 17:41:34 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 42155
+2021-11-03 17:41:43 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 42496
+2021-11-03 17:41:43 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 42496
+2021-11-03 17:42:34 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 42835
+2021-11-03 17:42:34 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 42835
+2021-11-03 17:42:47 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 43189
+2021-11-03 17:42:47 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 43189
+2021-11-03 17:43:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 43530
+2021-11-03 17:43:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 43530
+2021-11-03 17:43:17 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 43870
+2021-11-03 17:43:17 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 43870
+2021-11-03 17:45:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44207
+2021-11-03 17:45:25 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44207
+2021-11-03 17:46:30 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44547
+2021-11-03 17:46:30 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44547
+2021-11-03 17:47:50 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44904
+2021-11-03 17:47:50 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 44904
+2021-11-03 17:48:15 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45239
+2021-11-03 17:48:15 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45239
+2021-11-03 17:48:28 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45584
+2021-11-03 17:48:28 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45584
+2021-11-03 17:48:41 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45924
+2021-11-03 17:48:41 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 45924
+2021-11-03 17:49:08 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46237
+2021-11-03 17:49:08 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46237
+2021-11-03 17:49:18 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46619
+2021-11-03 17:49:18 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46619
+2021-11-03 17:50:44 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46988
+2021-11-03 17:50:44 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 46988
+2021-11-03 17:50:45 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47328
+2021-11-03 17:50:45 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47328
+2021-11-03 17:51:00 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47661
+2021-11-03 17:51:00 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47661
+2021-11-03 17:51:58 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47972
+2021-11-03 17:51:58 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 47972
+2021-11-03 17:52:47 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48312
+2021-11-03 17:52:47 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48312
+2021-11-03 17:52:48 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48652
+2021-11-03 17:52:48 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48652
+2021-11-03 17:53:00 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48979
+2021-11-03 17:53:00 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 48979
+2021-11-03 17:55:58 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 49326
+2021-11-03 17:55:58 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 49326
+2021-11-03 17:57:28 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 49650
+2021-11-03 17:57:28 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 49650
+2021-11-03 17:59:24 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 50015
+2021-11-03 17:59:24 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 50015
+2021-11-03 17:59:49 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 50355
+2021-11-03 17:59:49 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 50355
+2021-11-03 17:59:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 50695
+2021-11-03 17:59:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 50695
+2021-11-03 18:00:13 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 51036
+2021-11-03 18:00:13 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 51036
+2021-11-03 18:00:22 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 51375
+2021-11-03 18:00:22 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 51375
+2021-11-03 18:00:31 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 51677
+2021-11-03 18:00:31 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 51677
+2021-11-03 18:00:32 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 52017
+2021-11-03 18:00:32 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 52017
+2021-11-03 18:01:03 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 52394
+2021-11-03 18:01:03 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 52394
+2021-11-03 18:01:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 52734
+2021-11-03 18:01:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 52734
+2021-11-03 18:01:11 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 53075
+2021-11-03 18:01:11 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 53075
+2021-11-03 18:02:03 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 53411
+2021-11-03 18:02:03 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 53411
+2021-11-03 18:02:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 53751
+2021-11-03 18:02:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 53751
+2021-11-03 18:02:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 54091
+2021-11-03 18:02:04 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 54091
+2021-11-03 18:02:10 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 54432
+2021-11-03 18:02:10 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 54432
+2021-11-03 18:02:20 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 54772
+2021-11-03 18:02:20 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 54772
+2021-11-03 18:02:32 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 55115
+2021-11-03 18:02:32 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 55115
+2021-11-03 18:02:51 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 55454
+2021-11-03 18:02:51 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 55454
+2021-11-03 18:03:38 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:03:38 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:03:41 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 56166
+2021-11-03 18:03:41 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 56166
+2021-11-03 18:03:45 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:03:45 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:15:29 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 56878
+2021-11-03 18:15:29 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 56878
+2021-11-03 18:17:57 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:17:57 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:18:06 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:18:06 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:19:46 [INFO    ] (basehttp.log_message) "GET /admin/ultilities/announcement/ HTTP/1.1" 200 8189
+2021-11-03 18:19:46 [INFO    ] (basehttp.log_message) "GET /admin/ultilities/announcement/ HTTP/1.1" 200 8189
+2021-11-03 18:19:47 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-03 18:19:47 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-03 18:27:21 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:27:21 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:27:24 [ERROR   ] (log.log_response) Internal Server Error: /administrator/
+Traceback (most recent call last):
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py", line 31, in see_log
+    return render(request, 'ultilities_see_log.html', response)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'static'. Did you forget to register or load this tag?
+2021-11-03 18:27:24 [ERROR   ] (log.log_response) Internal Server Error: /administrator/
+Traceback (most recent call last):
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\ultilities\views.py", line 31, in see_log
+    return render(request, 'ultilities_see_log.html', response)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\hanif\AppData\Local\Programs\Python\Python39\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'static'. Did you forget to register or load this tag?
+2021-11-03 18:27:24 [ERROR   ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 500 201655
+2021-11-03 18:27:24 [ERROR   ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 500 201655
+2021-11-03 18:28:43 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 73636
+2021-11-03 18:28:43 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 73636
+2021-11-03 18:28:43 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 18:28:43 [INFO    ] (basehttp.log_message) "GET /static/css/ultilities_styles.css HTTP/1.1" 304 0
+2021-11-03 18:32:35 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 74344
+2021-11-03 18:32:35 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 74344
+2021-11-03 18:32:38 [WARNING ] (log.log_response) Not Found: /administrator/see-log
+2021-11-03 18:32:38 [WARNING ] (log.log_response) Not Found: /administrator/see-log
+2021-11-03 18:32:38 [WARNING ] (basehttp.log_message) "GET /administrator/see-log HTTP/1.1" 404 3064
+2021-11-03 18:32:38 [WARNING ] (basehttp.log_message) "GET /administrator/see-log HTTP/1.1" 404 3064
+2021-11-03 18:32:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 75334
+2021-11-03 18:32:56 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 75334
+2021-11-03 18:32:59 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 75674
+2021-11-03 18:32:59 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 75674
+2021-11-03 18:33:01 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:33:01 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3018
+2021-11-03 18:33:02 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 76386
+2021-11-03 18:33:02 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 76386
+2021-11-03 18:41:48 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 76726
+2021-11-03 18:41:48 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 76726
+2021-11-03 18:41:49 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 1846
+2021-11-03 18:41:49 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 1846
+2021-11-03 18:41:57 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2936
+2021-11-03 18:41:57 [INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2936
+2021-11-03 18:52:53 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 77810
+2021-11-03 18:52:53 [INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 77810
+2021-11-03 18:54:32 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\praktikum\settings.py changed, reloading.
+2021-11-03 18:54:32 [INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\praktikum\settings.py changed, reloading.
+2021-11-03 18:54:41 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 18:54:41 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 18:54:42 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2936
+2021-11-03 18:54:42 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2936
+2021-11-03 18:54:44 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 79350
+2021-11-03 18:54:44 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 79350
+2021-11-03 18:55:11 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2936
+2021-11-03 18:55:11 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2936
+2021-11-03 18:55:13 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 80066
+2021-11-03 18:55:13 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 80066
+2021-11-03 18:56:50 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 80392
+2021-11-03 18:56:50 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 80392
+2021-11-03 18:57:15 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 80750
+2021-11-03 18:57:15 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 80750
+2021-11-03 19:08:29 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\praktikum\settings.py changed, reloading.
+2021-11-03 19:08:29 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\praktikum\settings.py changed, reloading.
+2021-11-03 19:08:31 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 19:08:31 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 19:09:00 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\praktikum\settings.py changed, reloading.
+2021-11-03 19:09:00 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\praktikum\settings.py changed, reloading.
+2021-11-03 19:47:40 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 19:47:40 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-03 19:47:57 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-03 19:47:57 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-03 19:47:57 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-11-03 19:47:57 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-11-03 19:48:00 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 83476
+2021-11-03 19:48:00 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 83476
+2021-11-03 19:48:07 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-03 19:48:07 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-03 19:48:09 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 84192
+2021-11-03 19:48:09 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 84192
+2021-11-03 19:49:52 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2594
+2021-11-03 19:49:52 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2594
+2021-11-03 19:50:13 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2586
+2021-11-03 19:50:13 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2586
+2021-11-03 19:52:22 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2602
+2021-11-03 19:52:22 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2602
+2021-11-03 19:52:22 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-11-03 19:52:22 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-11-03 19:52:23 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2602
+2021-11-03 19:52:23 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2602
+2021-11-03 19:53:11 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-03 19:53:11 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-03 19:53:27 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 86772
+2021-11-03 19:53:27 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 86772
+2021-11-04 08:46:06 [ WARNING ] (log.log_response) Not Found: /admin/ultilities/announcement/
+2021-11-04 08:46:06 [ WARNING ] (log.log_response) Not Found: /admin/ultilities/announcement/
+2021-11-04 08:46:06 [ WARNING ] (basehttp.log_message) "GET /admin/ultilities/announcement/ HTTP/1.1" 404 4898
+2021-11-04 08:46:06 [ WARNING ] (basehttp.log_message) "GET /admin/ultilities/announcement/ HTTP/1.1" 404 4898
+2021-11-04 08:46:23 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 08:46:23 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 08:46:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 08:46:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 08:46:27 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 08:46:27 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 08:46:27 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 08:46:27 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 08:46:52 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-11-04 08:46:52 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-11-04 08:46:52 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 304 0
+2021-11-04 08:46:52 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 304 0
+2021-11-04 08:47:08 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-04 08:47:08 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 2916
+2021-11-04 08:47:12 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 90326
+2021-11-04 08:47:12 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 90326
+2021-11-04 09:58:23 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 09:58:23 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 09:58:38 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 09:58:38 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:02:21 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:02:21 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:02:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:02:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:02:28 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 92312
+2021-11-04 10:02:28 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 92312
+2021-11-04 10:02:59 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement
+2021-11-04 10:02:59 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement
+2021-11-04 10:02:59 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 400 13
+2021-11-04 10:02:59 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 400 13
+2021-11-04 10:06:32 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:06:32 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:06:33 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:06:33 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:07:07 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 10:07:07 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 10:07:07 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:07:07 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:07:21 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 10:07:21 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 10:07:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:07:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:11:02 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 95810
+2021-11-04 10:11:02 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 95810
+2021-11-04 10:11:02 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-11-04 10:11:02 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-11-04 10:11:04 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:11:04 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:11:13 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:11:13 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:11:13 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:11:13 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:12:51 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:12:51 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:12:51 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:12:51 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:12:58 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 98316
+2021-11-04 10:12:58 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 98316
+2021-11-04 10:13:07 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:13:07 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:13:11 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:13:11 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:13:11 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:13:11 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:13:36 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:13:36 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:13:42 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 100120
+2021-11-04 10:13:42 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 100120
+2021-11-04 10:13:44 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:13:44 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3787
+2021-11-04 10:16:08 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3870
+2021-11-04 10:16:08 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3870
+2021-11-04 10:16:19 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3771
+2021-11-04 10:16:19 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3771
+2021-11-04 10:16:46 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3771
+2021-11-04 10:16:46 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3771
+2021-11-04 10:16:59 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:16:59 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:16:59 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:16:59 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:19:18 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 102674
+2021-11-04 10:19:18 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 102674
+2021-11-04 10:26:42 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:26:42 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:26:43 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:26:43 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:26:58 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3771
+2021-11-04 10:26:58 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3771
+2021-11-04 10:27:48 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3789
+2021-11-04 10:27:48 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3789
+2021-11-04 10:27:59 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:27:59 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:28:00 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:28:00 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:28:02 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:28:02 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:28:02 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:28:02 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:28:02 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:28:02 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:28:02 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:28:02 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:28:42 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 106724
+2021-11-04 10:28:42 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 106724
+2021-11-04 10:33:40 [ ERROR   ] (log.log_response) Internal Server Error: /administrator/make-announcement
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'administrator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py", line 11, in make_announcement
+    return render(request, 'utilities_make_announcement.html', response)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'administrator' is not a registered namespace
+2021-11-04 10:33:40 [ ERROR   ] (log.log_response) Internal Server Error: /administrator/make-announcement
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'administrator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py", line 11, in make_announcement
+    return render(request, 'utilities_make_announcement.html', response)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'administrator' is not a registered namespace
+2021-11-04 10:33:40 [ ERROR   ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 500 127691
+2021-11-04 10:33:40 [ ERROR   ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 500 127691
+2021-11-04 10:34:13 [ ERROR   ] (log.log_response) Internal Server Error: /administrator/make-announcement
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py", line 11, in make_announcement
+    return render(request, 'utilities_make_announcement.html', response)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'make-announcement/ajax' not found. 'make-announcement/ajax' is not a valid view function or pattern name.
+2021-11-04 10:34:13 [ ERROR   ] (log.log_response) Internal Server Error: /administrator/make-announcement
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py", line 11, in make_announcement
+    return render(request, 'utilities_make_announcement.html', response)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'make-announcement/ajax' not found. 'make-announcement/ajax' is not a valid view function or pattern name.
+2021-11-04 10:34:13 [ ERROR   ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 500 125739
+2021-11-04 10:34:13 [ ERROR   ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 500 125739
+2021-11-04 10:35:05 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3800
+2021-11-04 10:35:05 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3800
+2021-11-04 10:35:39 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:35:39 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:35:39 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:35:39 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:35:40 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:35:40 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:35:40 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:35:40 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:35:40 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:35:40 [ WARNING ] (log.log_response) Bad Request: /administrator/make-announcement/ajax
+2021-11-04 10:35:40 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:35:40 [ WARNING ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 400 13
+2021-11-04 10:35:46 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:35:46 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:35:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:35:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:35:47 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:35:47 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:35:47 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:35:47 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:35:48 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:35:48 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:35:48 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:35:48 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:36:28 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 133094
+2021-11-04 10:36:28 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 133094
+2021-11-04 10:44:31 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:44:31 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:44:32 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:44:32 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:48:21 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:48:21 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:48:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:48:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:48:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 135082
+2021-11-04 10:48:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 135082
+2021-11-04 10:48:39 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:48:39 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:48:49 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:48:49 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:49:09 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:49:09 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:49:16 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:49:16 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:49:22 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 302 0
+2021-11-04 10:49:22 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 302 0
+2021-11-04 10:49:22 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 137304
+2021-11-04 10:49:22 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 137304
+2021-11-04 10:49:45 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:45 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:45 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:45 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:46 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:46 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:47 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:47 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:47 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:47 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:48 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:48 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:49:48 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:48 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:49:55 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/ HTTP/1.1" 200 2816
+2021-11-04 10:49:55 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/ HTTP/1.1" 200 2816
+2021-11-04 10:49:55 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2021-11-04 10:49:55 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2021-11-04 10:49:58 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 7990
+2021-11-04 10:49:58 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 7990
+2021-11-04 10:49:58 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2021-11-04 10:49:58 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2021-11-04 10:50:06 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:50:06 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:50:06 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:50:06 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:50:12 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/add/ HTTP/1.1" 200 7241
+2021-11-04 10:50:12 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/add/ HTTP/1.1" 200 7241
+2021-11-04 10:50:12 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:50:12 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:50:15 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:50:15 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 6055
+2021-11-04 10:50:15 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:50:15 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:50:51 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:50:51 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3837
+2021-11-04 10:50:55 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 302 0
+2021-11-04 10:50:55 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement/ajax HTTP/1.1" 302 0
+2021-11-04 10:50:55 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 144796
+2021-11-04 10:50:55 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 144796
+2021-11-04 10:52:12 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 10:52:12 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 10:52:13 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:52:13 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:53:05 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 145960
+2021-11-04 10:53:05 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 145960
+2021-11-04 10:53:16 [ ERROR   ] (log.log_response) Internal Server Error: /administrator/make-announcement
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'administrator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py", line 12, in make_announcement
+    return render(request, 'utilities_make_announcement.html', response)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'administrator' is not a registered namespace
+2021-11-04 10:53:16 [ ERROR   ] (log.log_response) Internal Server Error: /administrator/make-announcement
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'administrator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py", line 12, in make_announcement
+    return render(request, 'utilities_make_announcement.html', response)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\env\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'administrator' is not a registered namespace
+2021-11-04 10:53:16 [ ERROR   ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 500 127496
+2021-11-04 10:53:16 [ ERROR   ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 500 127496
+2021-11-04 10:57:18 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:57:18 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 10:57:19 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:57:19 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 10:58:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 158208
+2021-11-04 10:58:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 158208
+2021-11-04 10:58:42 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3832
+2021-11-04 10:58:42 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3832
+2021-11-04 10:58:55 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 302 0
+2021-11-04 10:58:55 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 302 0
+2021-11-04 10:58:55 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 159296
+2021-11-04 10:58:55 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 159296
+2021-11-04 10:59:12 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7239
+2021-11-04 10:59:12 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7239
+2021-11-04 10:59:12 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:12 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:14 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/1/change/ HTTP/1.1" 200 7564
+2021-11-04 10:59:14 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/1/change/ HTTP/1.1" 200 7564
+2021-11-04 10:59:14 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:14 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:31 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/1/change/ HTTP/1.1" 200 7564
+2021-11-04 10:59:31 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/1/change/ HTTP/1.1" 200 7564
+2021-11-04 10:59:31 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:31 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:49 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7239
+2021-11-04 10:59:49 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7239
+2021-11-04 10:59:49 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 10:59:49 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:00:36 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 11:00:36 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\views.py changed, reloading.
+2021-11-04 11:00:37 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 11:00:37 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 11:01:00 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 11:01:00 [ INFO    ] (autoreload.trigger_reload) D:\_Colleger\2 Sophomore\_Pelajaran Kuliah - Semester 3\PBP\GitLab\pbp-lab\utilities\urls.py changed, reloading.
+2021-11-04 11:01:01 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 11:01:01 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-04 11:02:01 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3589
+2021-11-04 11:02:01 [ INFO    ] (basehttp.log_message) "GET /administrator/make-announcement HTTP/1.1" 200 3589
+2021-11-04 11:03:04 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 302 0
+2021-11-04 11:03:04 [ INFO    ] (basehttp.log_message) "POST /administrator/make-announcement HTTP/1.1" 302 0
+2021-11-04 11:03:04 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 164894
+2021-11-04 11:03:04 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 164894
+2021-11-04 11:03:23 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7472
+2021-11-04 11:03:23 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7472
+2021-11-04 11:03:23 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:03:23 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:03:24 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/2/change/ HTTP/1.1" 200 7624
+2021-11-04 11:03:24 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/2/change/ HTTP/1.1" 200 7624
+2021-11-04 11:03:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:03:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:03:32 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7472
+2021-11-04 11:03:32 [ INFO    ] (basehttp.log_message) "GET /admin/utilities/announcement/ HTTP/1.1" 200 7472
+2021-11-04 11:03:32 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:03:32 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-11-04 11:04:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 167050
+2021-11-04 11:04:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 167050
+2021-11-04 11:06:53 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 167421
+2021-11-04 11:06:53 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 167421
+2021-11-04 11:07:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 167738
+2021-11-04 11:07:32 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 167738
+2021-11-04 11:07:57 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 168082
+2021-11-04 11:07:57 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 168082
+2021-11-04 11:08:04 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 168426
+2021-11-04 11:08:04 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 168426
+2021-11-04 11:08:51 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 168797
+2021-11-04 11:08:51 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 168797
+2021-11-04 11:09:02 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 169444
+2021-11-04 11:09:02 [ INFO    ] (basehttp.log_message) "GET /administrator/ HTTP/1.1" 200 169444
