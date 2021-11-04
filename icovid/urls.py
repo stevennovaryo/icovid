@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import path, re_path, include
 from .views import index
 import forum.urls as forum
+import utilities.urls as utilities
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', index),
     path('forum/', include(forum)),
+    path('admin/', admin.site.urls),
+    path('administrator/', include('utilities.urls')),
     path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
 ]
