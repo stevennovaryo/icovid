@@ -41,10 +41,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'news'
+    'authentication',
+    'crispy_forms',
+    'django_cas_ng',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -92,6 +96,28 @@ if db_from_env != None:
     DATABASES['default'].update(db_from_env)
 
 
+# Authentication backends
+# https://docs.djangoproject.com/en/3.1/topics/auth/customizing/#specifying-authentication-backends
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'django_cas_ng.backends.CASBackend',
+)
+
+
+# Django CAS-NG configuration
+
+CAS_SERVER_URL = os.getenv("CAS_SERVER_URL", 'https://sso.ui.ac.id/cas2/')
+CAS_LOGIN_URL_NAME = 'auth:login'
+CAS_FORCE_CHANGE_USERNAME_CASE = 'lower'
+
+
+# SSO-UI configuration
+
+SSO_UI_ORG_DETAIL_FILE_PATH = "authentication/static/org_codes.json"
+SSO_UI_ORG_DETAIL_LANG = "id"
+
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -127,13 +153,22 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+
+# This is the directory for storing `collectstatic` results.
+# This shouldn't be included in your Git repository.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 django_heroku.settings(locals())
 
+
+# Enable compression and caching features of whitenoise.
+# You can remove this if it causes problems on your setup.
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
