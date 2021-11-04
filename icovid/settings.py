@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'authentication',
     'crispy_forms',
     'django_cas_ng',
+    'news',
 ]
 
 MIDDLEWARE = [
@@ -172,3 +173,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Static asset configuration
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = 'staticfiles'
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
