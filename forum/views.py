@@ -40,14 +40,12 @@ def forum_post_detail(request, slug):
         comments = [dummy]
 
     form_data = {}
-    if request.method == 'post' and request.is_ajax():
+    if request.method == 'POST' and request.is_ajax():
         description = request.POST.get('description')
 
         print(description)
 
-        response_data['description'] = description
-        response_data['author'] = request.user
-        response_data['parentForum'] = forumPost
+        response_data = {'description':description, 'author': request.user.get_username()}
 
         tmp = Comment(author=request.user,description=description, parentForum=forumPost)
         tmp.save()
