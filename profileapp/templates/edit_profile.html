@@ -17,8 +17,8 @@
     <div class="col-md-8" style="font-weight: bold;">
       <!-- method -->
       <form method="POST" id="postform" enctype="multipart/form-data">
-          <div class="form">
-            {% csrf_token %}
+        {% csrf_token %}
+          <div class="form" id="the_post">
             <!-- #1 -->
             <div class="container">
               <div id= "avatar-box" style="text-align: center;">
@@ -65,7 +65,7 @@
           <div class="card-footer fw-bolder">
             <div class="d-flex justify-content-center">
               <div class="order-1 p-2">
-                <button class="btn btn-outline-primary" type="submit" id="btnsave">Save Changes</button>
+                <button class="btn btn-outline-primary" type="submit" id="btnsave" value="POST">Save Changes</button>
               </div>
               <div class="order-2 p-2">
                 <button class="btn btn-outline-danger" type="reset" id="btncancel">Cancel</button>
@@ -75,7 +75,7 @@
       </form>
     </div>
     <script text="javascript">
-      $("postform").submit(function(e){
+      $("btnsave").submit(function(e){
       // prevent from normal form behaviour
         e.preventDefault();
         // serialize the form data  
@@ -83,7 +83,7 @@
         var response = "";
         $.ajax({
           type : 'POST',
-          url :  "{% url 'profile_post' %}",
+          url :  "{% url 'update-profile' %}",
           data : serializedData,
           success : function(response){
             //reset the form after successful submit
@@ -94,6 +94,27 @@
           }
         });
       });
+      //   function profileupdate() {
+      //     console.log("create post is working!") // sanity check
+      //     $.ajax({
+      //         url : "{% url 'update-profile' %}", // the endpoint
+      //         type : "POST", // http method
+      //         data : { the_post : $('#post-text').val() }, // data sent with the post request
+
+      //         // handle a successful response
+      //         success : function(json) {
+      //             $('#post-form').val(''); // remove the value from the input
+      //             console.log(json); // log the returned json to the console
+      //             console.log("success"); // another sanity check
+      //         },
+
+      //         // handle a non-successful response
+      //         error : function(xhr,errmsg,err) {
+      //             $('#results').html("Oops! We have encountered an error: "+errmsg); // add the error to the dom
+      //             console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+      //         }
+      //     });
+      // };
       // const form = document.getElementById('postform');
       // form.addEventListener("submit", submitHandler)
 
@@ -113,7 +134,7 @@
       //     alert('Your profile has been updated!');
       //     form.reset()
       //   }
-      // }
+      // } -->
     </script>
   </div>
 </div>

@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
     path('profileapp/',include('profileapp.urls')),
+    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
 ]
 
 if settings.DEBUG:
