@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import *
 from .forms import *
 from django.http import HttpResponse, JsonResponse
+from django.core import serializers
 
 # Create your views here.
 def index(request):
@@ -35,23 +36,22 @@ def forum_post_detail(request, slug):
     if (len(comments) == 0):
         dummy = Comment()
         dummy.description = "Belum ada komentar"
-        # dummy.author = "" 
+        # dummy.author = ""
         comments = [dummy]
 
     form_data = {}
-    if request.POST.get('action') == 'post':
+    if request.method == 'post' and request.is_ajax():
         description = request.POST.get('description')
+
+        print(description)
 
         response_data['description'] = description
         response_data['author'] = request.user
         response_data['parentForum'] = forumPost
 
-      
-        Comments.objects.create(
-            description = description,
-            author = request.user,
-            parentForum = forumPost
-            )
+        tmp = Comment(author=request.user,description=description, parentForum=forumPost)
+        tmp.save()
+
         return JsonResponse(response_data)
     return render(request, 'forumDetail.html', {'forumPost':forumPost, 'comments':comments})
 
