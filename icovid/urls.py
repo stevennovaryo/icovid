@@ -21,4 +21,6 @@ import utilities.urls as utilities
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('administrator/', include('utilities.urls')),
+    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
+    path('', index)
 ]
