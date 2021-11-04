@@ -15,10 +15,10 @@ class ForumPost(models.Model):
         return self.topic
 
     def snippets(self):
-        if len(self.description) <= 100:
+        if len(self.description) <= 1000:
             return self.description
         else:
-            return self.description[:100] + "..."
+            return self.description[:1000] + "..."
 
 # TODO: implement the thread class
 class Comment(models.Model):
