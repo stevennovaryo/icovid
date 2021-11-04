@@ -41,11 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    'utilities',
     'authentication',
     'crispy_forms',
     'django_cas_ng',
     'news',
-    'utilities',
 ]
 
 MIDDLEWARE = [
@@ -194,7 +194,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": BASE_DIR 'utilities/log/icovid_log.log',
+            "filename":'utilities/log/icovid_log.log',
             "formatter": "app",
         },
     },
@@ -215,3 +215,5 @@ LOGGING = {
         },
     },
 }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
