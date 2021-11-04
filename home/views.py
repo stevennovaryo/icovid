@@ -27,7 +27,11 @@ def index(request):
     if form.is_valid():
         # save the form data to model
         data = form.save(commit=False) #bisa return object
-        data.user_id = User.objects.get(id=request.user.id)
+        try :
+            data.user_id = User.objects.get(id=request.user.id)
+        except:
+            return HttpResponseRedirect("/home/")
+
         data.save()
         if request.method == 'POST':
           return HttpResponseRedirect("/home/")

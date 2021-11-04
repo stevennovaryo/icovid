@@ -36,7 +36,7 @@
           $("#loading-message").html('Please wait...')
           $('#loading-message').css({'color': 'gray'})
         }
-      }).done((response, textStatus, xhr) => { window.location.pathname = '/home' }
+      }).done((response, textStatus, xhr) => { window.location.pathname = '/home/' }
       ).fail((response, textStatus, xhr) => {
           console.log(response.responseJSON.error)
           $('#loading-message').empty()

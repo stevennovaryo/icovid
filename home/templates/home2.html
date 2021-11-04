@@ -328,7 +328,7 @@
                 $(document).ready(function(){
                     $(".edit-feedback").click(function() {
                         $.ajax({
-                            // url: "http://127.0.0.1:8000/home/edit_feedback",
+                           
                             url: '{% url "home/:edit_feedback" %}',
                             method: "POST",
                             headers: {
@@ -350,7 +350,7 @@
     
                     $(".delete-feedback").click(function(){
                         $.ajax({
-                            // url:"http://127.0.0.1:8000/home/delete_feedback",
+        
                             url: '{% url "home/:delete_feedback" %}',
                             method: "POST",
                             headers: {
