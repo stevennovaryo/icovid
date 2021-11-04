@@ -30,6 +30,11 @@ def forum_post_detail(request, slug):
 
     forumPost = ForumPost.objects.get(slug=slug)
     comments = Comment.objects.all().filter(parentForum=forumPost)
+    if (len(comments) == 0):
+        dummy = Comment()
+        dummy.description = "Belum ada komentar"
+        # dummy.author = ""
+        comments = [dummy]
     return render(request, 'forumDetail.html', {'forumPost':forumPost, 'comments':comments})
 
 def post_comment(request, slug):
