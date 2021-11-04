@@ -1,3 +1,4 @@
+
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +13,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body class="d-flex flex-column">
+        {% include "utilities_choosing_navbar.html" %}
         <main class="flex-shrink-0">
             <!-- Latest Post-->
             <section class="py-5">
@@ -29,7 +31,7 @@
                                     <div class="p-4 p-md-5">
                                         <div class="h2 fw-bolder">{{firstArticle.title}}</div>
                                         <p>{{ firstArticle.summary }}</p>
-                                        <a class="stretched-link text-decoration-none" href="{% url 'read' firstArticle.title%}">Click to read more<i class="bi bi-arrow-right"></i></a>
+                                        <a class="stretched-link text-decoration-none" href="/news/read/{{firstArticle.title}}/">Click to read more<i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-xl-7">
@@ -56,7 +58,7 @@
                                 <div class="card-body p-4">
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">{{article.title}}</div></a>
                                     <p class="card-text mb-0">{{article.summary}}</p>
-                                    <a class="stretched-link text-decoration-none" href="{% url 'read' article.title %}">Click to read more<i class="bi bi-arrow-right"></i>
+                                    <a class="stretched-link text-decoration-none" href="/news/read/{{article.title}}/">Click to read more<i class="bi bi-arrow-right"></i>
                                     </a>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -89,7 +91,7 @@
                     var _currentResult=$(".mb-5").length;
                     // Run Ajax
                     $.ajax({
-                        url:"{% url 'load-more' %}",
+                        url:"{% url 'news:load-more' %}",
                         type:'post',
                         data:{
                             'offset':_currentResult,

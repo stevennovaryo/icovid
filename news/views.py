@@ -34,7 +34,7 @@ def postArticle(request):
         form = articleForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('/news')
+            return redirect('/news/')
     else:
         form = articleForm()
     context['form'] = form

@@ -32,7 +32,7 @@ def signupView(request):
 
 def logoutView(request):
   logout(request)
-  return redirect('/auth/login')
+  return redirect('/auth/login/')
 
 
 @csrf_protect
