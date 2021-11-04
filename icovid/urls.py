@@ -28,5 +28,6 @@ urlpatterns = [
     path('administrator/', include('utilities.urls')),
     path('news/', include(('news.urls', 'news'), namespace='news')),
     path('', index)
+]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

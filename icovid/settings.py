@@ -182,7 +182,9 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'db.sqlite3')
 )
+
 # For making log files (module utilities)
 LOGGING = {
     "version": 1,
@@ -192,7 +194,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": BASE_DIR/'utilities/log/icovid_log.log',
+            "filename": BASE_DIR 'utilities/log/icovid_log.log',
             "formatter": "app",
         },
     },
