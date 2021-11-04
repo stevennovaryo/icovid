@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import include, path
 from .views import index
 import news.urls as news
+import utilities.urls as utilities
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
     path('news/', include(news)),
     path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
+    path('administrator/', include('utilities.urls'))
 ]
