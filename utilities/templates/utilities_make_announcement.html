@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>iCovid - Make announcement</title>
+    <title>iCovid - Make Announcement</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/utilities_styles.css' %}" />
@@ -30,12 +30,34 @@
               <div class="form-group">
                 <textarea id="id_message" class="form-control" form="announcement" rows="4" cols="100" name="message" required="true" placeholder="Message"></textarea> 
               </div>
-              <br>              
-              <button type="submit" class="btn btn-primary btn-block">Post</button>              
+              <br>           
+              <input type="submit" class="btn btn-primary btn-block" id="announcementSubmit" value="Post">             
           </form>
         </section>
       </section>
     </section>
     <!-- end section -->
+
+    <script type="text/javascript">
+      $(document).ready(function() { 
+        $("#announcementSubmit").click(function(e) {
+          // serialize the data for sending the form data.
+          var serializedData = $(this).serialize();
+          // make POST ajax call
+          $.ajax({
+            url: "{% url 'make_announcement' %}",
+            type: "POST",
+            data: serializedData,             
+            success: function(response) {   
+              location.reload();
+            },
+            error: function (response) {
+              console.error(response);
+            }
+          });
+        });
+      })
+    </script>
+
   </body>
 </html>
