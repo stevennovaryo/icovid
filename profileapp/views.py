@@ -1,6 +1,8 @@
 from collections import namedtuple
 import json
+from os import name
 from typing import BinaryIO
+from django.contrib.auth.models import User
 from django.http.response import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
@@ -36,6 +38,12 @@ def profileupdate(request):
     }
 
     return render(request, 'edit_profile.html', context)
+
+# other user
+@login_required
+def otheruserprofile(request, id):
+    user = User.object.get(name=id)
+    return render(request,'other_profile.html', {'user': user})
 
 @login_required
 def profiledatas(request):
