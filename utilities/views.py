@@ -1,6 +1,9 @@
 # Create your views here.
 from django.http.response import HttpResponseRedirect
+from django.http import HttpResponse
 from django.shortcuts import render
+from django.http import JsonResponse
+from django.core import serializers
 from .models import Announcement
 from .forms import AnnouncementForm
 
@@ -13,10 +16,14 @@ def make_announcement(request):
 
             return HttpResponseRedirect("/administrator/")
         
-
     response = {'form': form}
     return render(request, 'utilities_make_announcement.html', response)
 
+def get_announcement(request):
+    announcement = Announcement.objects.all()
+    
+    data = serializers.serialize('json', announcement)        
+    return HttpResponse(data, content_type="application/json")
 
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,3 +36,4 @@ def see_log(request):
 
     response = {'log_content': log_content}
     return render(request, 'utilities_see_log.html', response)
+

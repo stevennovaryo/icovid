@@ -2,16 +2,16 @@
 {% if user.is_authenticated %}
 	
 	<!-- Admin -->
-    {% if user.is_superuser %}                      
-      {% include 'utilities_navbar_admin.html' %}   
+  {% if user.is_superuser %}                      
+    {% include 'utilities_navbar_admin.html' %}   
 
-    <!-- User -->  
-    {% else %} 
-      {% include 'utilities_navbar_user.html' %} 
-    {% endif %}             
+  <!-- User -->  
+  {% else %} 
+    {% include 'utilities_navbar_user.html' %} 
+  {% endif %}             
 
 <!-- Guest -->
 {% else %}  
-    {% include 'utilities_navbar_guest.html' %} 
+  % include 'utilities_navbar_guest.html' %} 
    
 {% endif %}

@@ -1,22 +1,4 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
-<!-- From utilities - add code in login method views.py authentication module 
-
-    from utilities.models import Announcement
-    announcement = Announcement.objects.last()
-    # include this in variable response => 'announcement': announcement
-
--->
-
-<!--  From utilities - Attribute button for trigger popup
-    <button class="btn btn-primary" data-target="#announcementModal" data-toggle="modal">Login</button>
--->
-
-<!-- From utilities - Modal Popup Announcement [add code in link '/login'] --> 
+<!-- Modal Popup Announcement --> 
 <div class="modal fade" id="announcementModal" data-keyboard="false" data-backdrop="static" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -26,10 +8,10 @@
       </div>
       <div class="modal-body">
         <h5 style="text-align: center;">Title</h5>
-        <p style="text-align: center;">{{ announcement.title }}</p>
+        <p style="text-align: center;" id="announcementTitle"></p>
         <br>
         <h5 style="text-align: center;">Message</h5>
-        <p style="text-align: center;">{{ announcement.message }}</p>
+        <p style="text-align: center;" id="announcementMessage"></p>
       </div>
       <div class="modal-footer">
         <button class="btn btn-info" data-dismiss="modal">Ok</button>

@@ -1,5 +1,14 @@
-<!-- Navbar Guest -->
+<!-- link and script -->
 {% load static %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/utilities_styles.css' %}" />
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- end -->
+
+<!-- Navbar Guest -->
 <header id="utilities">
   <a id="utilities" href="/home/" style="margin-right: auto;"><img class="logo" src="{% static 'images/icovid-logo.png' %}" alt="logo" /></a>
   <nav> 
@@ -14,3 +23,20 @@
   <a id="utilities" href="/auth/signup"><button id="utilities" style="padding: 5px 15px;">Sign up</button></a>
 </header>
 <!--end navbar--> 
+
+<!-- Announcement --> 
+<button id="utilities" data-target="#announcementModal" data-toggle="modal" 
+style="padding: 5px 15px; margin-top: 10px; background: #ffd4fd;" >Announcement</button>
+
+{% include 'utilities_modal_announcement.html' %} 
+
+<script type="text/javascript">
+$(document).ready(function() { 
+  $.getJSON("/administrator/get-announcement",
+  function(data){ 
+    $('#announcementTitle').text(data[data.length-1]["fields"]["title"].toLocaleString("en-US"));
+    $('#announcementMessage').text(data[data.length-1]["fields"]["message"].toLocaleString("en-US"));
+  });      
+})
+</script>
+<!-- end Announcement -->
