@@ -1,23 +1,23 @@
 {% extends "base_profile.html" %} {% load crispy_forms_tags %} {% load static %} 
 
 {% block content %}
-<div class="edit bg-gradient">
+<div class="edit-profile" style="background-color: whitesmoke;border-radius: 0.5%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
   <div class="media">
     <div class="text-center">
-      <h1 class="fw-bolder" style="color:white; padding: 1em 0 0.5em 0;"> {{ user.profile.name }} Custome Profile</h1>
+      <h2 class="card-header fw-bolder" style="color: #2d1f2c; padding: 1em 0 0.5em 0;"> Edit Profile</h2>
     </div>
-    <br>
-    <div class="media-body">
-        <h3 class="account-heading" style=" color: whitesmoke; text-align: center;">@{{ user.username }}</h3>
+    <div class="card-body">
+      <h4 class="card-title" style="text-align: center; color: #1561A7;">@{{ user.username }}</h4>
+      <h4 class="card-title-desc" style="text-align: center; color: #2d1f2c;font-weight: bolder;">{{ user.profile.name }}</h4>
     </div>
     <br>
   </div>
   <!-- FORM -->
-  <div class="row gx-5 justify-content-center" style="color: #83aae1; font-weight: 500; font-size: 17px;">
-    <div class="col-md-8">
+  <div class="row gx-5 justify-content-center" style="color: #1561A7; font-weight: 500; font-size: 17px;">
+    <div class="col-md-8" style="font-weight: bold;">
       <!-- method -->
-      <form method="POST" enctype="multipart/form-data">
-          <div class="form" id="profile-form">
+      <form method="POST" id="postform" enctype="multipart/form-data">
+          <div class="form">
             {% csrf_token %}
             <!-- #1 -->
             <div class="container">
@@ -35,7 +35,7 @@
             <!-- #3 -->
             <div class="container">
               <div class="d-flex justify-content-center">
-                <div class="order-1 p-2"> {{ profile_form.name|as_crispy_field }} </div>
+                <div class="order-1 p-2"> {{ profile_form.name|as_crispy_field }} </divid>
                 <div class="order-2 p-2"> {{ profile_form.email|as_crispy_field }} </div>
               </div>
             </div>
@@ -47,13 +47,13 @@
               </div>
             </div>
             <!-- #5 -->
-            <div class="container">
+            <div class="container" style="font-weight: bold;">
               <div class="d-flex justify-content-center">
                 <div class="order-1 p-2"> {{ profile_form.bio|as_crispy_field }} </div>
               </div>
             </div>
             <!-- #6 -->
-            <div class="container">
+            <div class="container" style="font-weight: bold;">
               <div class="d-flex justify-content-center">
                 <div class="order-1 p-2"> {{ profile_form.status|as_crispy_field }} </div>
                 <div class="order-1 p-2"> {{ profile_form.vaccinated_status|as_crispy_field }} </div>
@@ -62,20 +62,20 @@
           </div>
           <br>
           <!-- #7 -->
-          <div class="container">
+          <div class="card-footer">
             <div class="d-flex justify-content-center">
               <div class="order-1 p-2">
                 <button class="btn btn-outline-primary" type="submit" id="btnsave">Save Changes</button>
               </div>
-              <div class="order-1 p-2">
-                <button class="btn btn-outline-danger" type="reset">Cancel</button></div>
+              <div class="order-2 p-2">
+                <button class="btn btn-outline-danger" type="reset" id="btncancel">Cancel</button>
+              </div>
             </div>
           </div>
       </form>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </div>
     <script text="javascript">
-      $("#profileupdate").submit(function(e){
+      $("postform").submit(function(e){
       // prevent from normal form behaviour
         e.preventDefault();
         // serialize the form data  
@@ -83,18 +83,38 @@
         var response = "";
         $.ajax({
           type : 'POST',
-          url :  "{% url 'profile_submit' %}",
+          url :  "{% url 'profile_post' %}",
           data : serializedData,
           success : function(response){
             //reset the form after successful submit
-            $("#profileupdate")[0].reset(); 
+            $("#postform")[0].reset(); 
           },
           error : function(response){
             console.log(response)
           }
         });
       });
-  </script>
+      // const form = document.getElementById('postform');
+      // form.addEventListener("submit", submitHandler)
+
+      // function submitHandler(e) {
+      //   e.preventDefault();
+      //   $.ajax({
+      //     type : 'POST',
+      //     url : "/profileapp/profile-post/", // url where to POST
+      //     data : $('#form').serialize(), // form data
+      //     dataType : 'json',
+      //     success : successFunction
+      //   });
+      // }
+
+      // function successFunction(msg) {
+      //   if (msg.message == 'success') {
+      //     alert('Your profile has been updated!');
+      //     form.reset()
+      //   }
+      // }
+    </script>
   </div>
 </div>
 {% endblock content %}

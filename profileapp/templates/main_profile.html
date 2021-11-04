@@ -2,42 +2,42 @@
 {% block content %}
 
 {% if user.is_authenticated %}
-<div class="justify-content-center flex-wrap">
-    <div class="card-header bg-gradient" style="text-align: center; border-radius: 0.5%;">
-        <h1 style="color:white; padding: 1em 0 0.5em 0; text-align: center;">{{ user.profile.name }} Profile</h1>
-        <br>
+<div class="justify-content-center flex-wrap" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 0.5%;">
+    <div class="card-header bg-gradient" style="text-align: center;">
+        <h2 style="color:#2d1f2c; padding: 1em 0 0.5em 0; text-align: center; font-weight: bolder;"> {{ user.profile.name }} Profile</h2>
+        <hr style="width:100%; text-align:center;">
         <img src="{{ user.profile.avatar.url }}" class="card-img-top rounded-circle" alt="profile picture"  style="max-height:400px;width:350px;object-fit: cover; border-radius: 1%;">
     <div class="card-body">
-        <h4 class="card-title" style="text-align: center; color: #83aae1;">@{{ user.username }}</h4>
-        <p class="card-title-desc" style="text-align: center; color: white;"> {{ user.profile.name }} </p>
-        <a href= "/profileapp/edit-profile" class="border-bottom btn btn-secondary text-center"> Edit Profile</a>
+        <h4 class="card-title" style="text-align: center; color: #1561A7;">@{{ user.username }}</h4>
+        <h4 class="card-title-desc" style="text-align: center; color: #2d1f2c;font-weight: bolder;">{{ user.profile.name }}</h4>
+        <a href= "/profileapp/edit-profile" class="border-bottom btn btn-primary text-center"> Edit Profile</a>
     </div>
 </div>
     <div class="card">
         <div class="card-body" style="text-align: center;">
-            <h4 class="card-title" style="text-align: center; color: #58718f; font-weight: bold;"> About {{ user.profile.name }} </h4>
+            <h3 class="card-title" style="text-align: center; color: #1561A7; font-weight:bolder;">About {{ user.profile.name }}</h3>
             <hr style="width:100%; text-align:center;">
             <div class="row">
                 <div class="col-sm-6" style="text-align: left;">
                     <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-text"><i class="fa fa-envelope" style="font-size:22px;color:red"></i> {{ user.profile.email }} </h6>
-                            <h6 class="card-text"><i class="fa fa-phone" style="font-size:24px;color:red"></i> {{ user.profile.phone }} </h6>
-                            <h6 class="card-text"><i class="fa fa-map-marker" style="font-size:24px;color:red"></i> {{ user.profile.city }} </h6>
+                        <div class="card-header">
+                            <h6 class="card-text"><i class="fa fa-envelope" style="font-size:20px;color:#155FA4"></i><b>    {{ user.profile.email }}</b></h6>
+                            <h6 class="card-text"><i class="fa fa-phone" style="font-size:24px;color:#155FA4"></i><b>   {{ user.profile.phone }}</b></h6>
+                            <h6 class="card-text"><i class="fa fa-map-marker" style="font-size:24px;color:#155FA4"></i><b>  {{ user.profile.city }}</b></h6>
                             <hr style="width:100%; text-align:center;">
-                            <h6 class="card-text-acc"> account created since: </h6>
+                            <h6 class="card-text-acc"><b>account created:</b></h6>
                             <p>{{ user.profile.created_at}}</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6" style="text-align: left;">
                     <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-text"> Bio: </h6>
+                        <div class="card-header">
+                            <h6 class="card-text"><b> Bio: </b></h6>
                                 <p>{{ user.profile.bio }} </p>
                             <hr style="width:100%; text-align:center;">
-                            <h6 class="card-text-box"> Health Status:</h6> <p> {{ user.profile.status }} </p>
-                            <h6 class="card-text-box"> Vaccination Status:</h6> <p> {{ user.profile.vaccinated_status }} </p>
+                            <h6 class="card-text-box"> <b>Health Status:</b></h6> <p> {{ user.profile.status }} </p>
+                            <h6 class="card-text-box"> <b> Status:</b></h6> <p> {{ user.profile.vaccinated_status }} </p>
                         </div>
                     </div>
                 </div>
@@ -45,16 +45,16 @@
         </div>
         <div style="text-align: center;">
             <script text='javascript'>
-                if(navigator.onLine != 'true') {
-                    alert("Welcome to your profile!");
+                alert("Welcome to your profile!");
+                if(navigator.onLine == true) {
                     document.write("🟢 Online");
                 }
-                else if (navigator.onLine == 'true') {
-                    alert("Welcome to your profile!");
+                else {
                     document.write("🔴 Offline");
                 }
             </script>
         </div>
+        <br>
     </div>
 </div>
 

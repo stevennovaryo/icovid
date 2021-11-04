@@ -1,3 +1,6 @@
+from collections import namedtuple
+import json
+from typing import BinaryIO
 from django.http.response import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
@@ -5,12 +8,12 @@ from profileapp.forms import ProfileUpdateForm, UserUpdateForm
 from profileapp.models import Profile
 from django.core import serializers
 from django.contrib.auth.decorators import login_required
-from django.views.decorators.http import require_http_methods
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 def profile(request):
     return render(request, 'main_profile.html')
-
+    
 @login_required
 def profileupdate(request):
     if request.method == "POST":
@@ -19,11 +22,10 @@ def profileupdate(request):
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()
+            return redirect('user-profile')
         #     messages.success(request, ('Your profile has been updated!'))
         # else:
         #     messages.error(request, ('Unable to update your profile'))
-        return redirect('user-profile') # reverse
-    
     else:
         user_form = UserUpdateForm(instance=request.user)
         profile_form = ProfileUpdateForm(instance=request.user.profile)
