@@ -42,7 +42,6 @@ def postArticle(request):
 
 def load_more(request):
 
-    articleList = list(Article.objects.all())
     articleQuer = Article.objects.all()
     articleQuer = articleQuer[::-1]
     articleQuer = articleQuer[1::]
