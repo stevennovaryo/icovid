@@ -1,12 +1,14 @@
 from django.shortcuts import render, redirect
 from .models import *
 from .forms import *
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 
 # Create your views here.
 def index(request):
     forumPost = ForumPost.objects.all().order_by('-date_created')
     response = {'forumPost': forumPost}
+
+    
     return render(request, 'forumHome.html', response)
 
 # TODO: implement function that will post to forum
@@ -33,8 +35,24 @@ def forum_post_detail(request, slug):
     if (len(comments) == 0):
         dummy = Comment()
         dummy.description = "Belum ada komentar"
-        # dummy.author = ""
+        # dummy.author = "" 
         comments = [dummy]
+
+    form_data = {}
+    if request.POST.get('action') == 'post':
+        description = request.POST.get('description')
+
+        response_data['description'] = description
+        response_data['author'] = request.user
+        response_data['parentForum'] = forumPost
+
+      
+        Comments.objects.create(
+            description = description,
+            author = request.user,
+            parentForum = forumPost
+            )
+        return JsonResponse(response_data)
     return render(request, 'forumDetail.html', {'forumPost':forumPost, 'comments':comments})
 
 def post_comment(request, slug):
