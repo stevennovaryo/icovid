@@ -49,7 +49,7 @@ def load_more(request):
     offset=int(request.POST['offset'])
     limit=3
     posts=articleQuer[offset:limit+offset]
-    totalData=Article.objects.count()
+    totalData=Article.objects.count() - 1
     data={}
     posts_json=serializers.serialize('json', posts)
     return JsonResponse(data={

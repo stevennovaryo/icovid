@@ -110,7 +110,7 @@
                                 <div class="card-body p-4">\
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">'+data.fields.title+'</div></a>\
                                     <p class="card-text mb-0">'+data.fields.summary+'</p>\
-                                    <a class="stretched-link text-decoration-none" href="./'+data.fields.title.replaceAll(" ", "%20") + '/'+'">Click to read more<i class="bi bi-arrow-right"></i></a>\
+                                    <a class="stretched-link text-decoration-none" href="./'+data.fields.title.replaceAll(" ", "%20").replaceAll("?", "%3F").replaceAll(".", "%2E").replaceAll(",", "%2C").replaceAll("!", "%21") + '/'+'">Click to read more<i class="bi bi-arrow-right"></i></a>\
                                 </div>\
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">\
                                     <div class="d-flex align-items-end justify-content-between">\
