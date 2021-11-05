@@ -2,16 +2,15 @@
 
 {% block content %}
 <div class="edit-profile" style="background-color: whitesmoke;border-radius: 0.5%;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-  <div class="media">
-    <div class="text-center">
-      <h2 class="card-header fw-bolder" style="color: #2d1f2c; padding: 1em 0 0.5em 0;"> Edit Profile</h2>
-    </div>
-    <div class="card-body">
+  <div class="card-header">
+      <h2 class= "text-center" style="color: #2d1f2c; padding: 1em 0 0.5em 0;"> Edit Profile</h2>
+    <!-- <div class="card-body">
       <h4 class="card-title" style="text-align: center; color: #1561A7;">@{{ user.username }}</h4>
       <h4 class="card-title-desc" style="text-align: center; color: #2d1f2c;font-weight: bolder;">{{ user.profile.name }}</h4>
-    </div>
-    <br>
+    </div> -->
   </div>
+  <!-- FORM -->
+  <br>
   <!-- FORM -->
   <div class="row gx-5 justify-content-center" style="color: #1561A7; font-weight: 500; font-size: 17px;">
     <div class="col-md-8" style="font-weight: bold;">
@@ -74,6 +73,7 @@
           </div>
       </form>
     </div>
+    <!-- <script type="text/javascript">
     <script type="text/javascript">
     $(document).ready(function() {
       $(document).on("submit", "#postform", function(e){
@@ -82,12 +82,14 @@
         // serialize the form data  
         var serializedData = $(this).serialize();
         var response = "";
+        $.ajax ({
         $.ajax({
           type : 'POST',
           url :  "{% url 'update-profile' %}",
           data : serializedData,
           success : function(response){
             $("#id_name").val(response["name"]);
+            // $("#id_avatar").val(response["avatar"]);
             $("#id_avatar").val(response["avatar"]);
             $("#id_email").val(response["email"]);
             $("#id_phone").val(response["phone"]);
@@ -103,8 +105,8 @@
           }
         });
       });
-    })
-    </script>
+    });
+    </script> -->
   </div>
 </div>
 {% endblock content %}
