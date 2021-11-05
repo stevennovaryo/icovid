@@ -3,6 +3,7 @@ from .models import *
 from .forms import *
 from django.http import HttpResponse, JsonResponse
 from django.core import serializers
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def index(request):
@@ -53,6 +54,7 @@ def forum_post_detail(request, slug):
         return JsonResponse(response_data)
     return render(request, 'forumDetail.html', {'forumPost':forumPost, 'comments':comments})
 
+@login_required(login_url ='/auth/login/')
 def post_comment(request, slug):
     form = CommentForm(request.POST)
 
