@@ -105,18 +105,6 @@ db_from_env = dj_database_url.config(conn_max_age=600)
 if db_from_env != None:
     DATABASES['default'].update(db_from_env)
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd8o1sch5dgtkqs',
-        'USER': 'miefnuhlhgtmzx',
-        'PASSWORD': 'b3b2bbb4a0291d241ed06722e9e84b75e7921d5c61e142533cdc4fefaa4dc03b',
-        'HOST': 'ec2-3-222-24-200.compute-1.amazonaws.com',
-        'PORT': '5432',
-    }
-}
-
-
 
 # Authentication backends
 # https://docs.djangoproject.com/en/3.1/topics/auth/customizing/#specifying-authentication-backends
