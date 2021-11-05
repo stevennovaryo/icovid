@@ -28,7 +28,6 @@ urlpatterns = [
     path('', index),
     path('forum/', include(forum)),
     path('admin/', admin.site.urls),
-    path('', index),
     path('tracker/', include(tracker)),
     path('administrator/', include('utilities.urls')),
     path('profileapp/',include('profileapp.urls')),
