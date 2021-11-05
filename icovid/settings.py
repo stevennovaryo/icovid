@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tracker',
+    'profileapp',
     'home',
     'utilities',
     'authentication',
@@ -163,6 +164,10 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 django_heroku.settings(locals())
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # where are uploaded files will be localted on file system
+MEDIA_URL = '/media/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Enable compression and caching features of whitenoise.
 # You can remove this if it causes problems on your setup.
