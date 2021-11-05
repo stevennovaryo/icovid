@@ -16,21 +16,25 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from .views import index
-import tracker.urls as tracker
 from django.conf.urls.static import static
 from django.conf import settings
 from .views import index
+import news.urls as news
+import tracker.urls as tracker
+from django.conf import settings
 import forum.urls as forum
 import utilities.urls as utilities
 
 
 urlpatterns = [
-    path('', index),
-    path('forum/', include(forum)),
     path('admin/', admin.site.urls),
-    path('tracker/', include(tracker)),
+    # path('news/', include(news)),
+    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
     path('administrator/', include('utilities.urls')),
     path('profileapp/',include('profileapp.urls')),
+    path('', index),
+    path('forum/', include(forum)),
+    path('tracker/', include(tracker)),
     path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
     path('news/', include(('news.urls', 'news'), namespace='news')),
     path('home/', include(('home.urls', 'home'), namespace='home/')),
