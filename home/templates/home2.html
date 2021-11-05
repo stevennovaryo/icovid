@@ -56,19 +56,19 @@
                     <div class="col-lg-8 col-xl-6">
                         <div class="text-center">
                             <h2 class="fw-bolder">Read Latest Articles</h2>
-                            <p class="lead fw-normal mb-5" style="color: rgb(37, 37, 37);">Read the latest articles in our website</p>
+                            <p class="lead fw-normal mb-5" style="color: rgb(37, 37, 37);">Read the latest articles in our website. Go to the News Feature for more !</p>
                         </div>
                     </div>
                 </div>
                
                 <div class="row gx-5 ">
-                   
+                    {% for article in articleList %}
                     <div class="col-lg-4 mb-5">
                         <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src = {{firstArticle.articleImage.url}} alt="..." width="600" height="350"/>
+                            <img class="card-img-top" src = {{article.articleImage.url}} alt="..." width="600" height="350"/>
                             <div class="card-body p-4">
-                                <a class="text-decoration-none link-dark stretched-link" href="/news/read/{{firstURL}}/"><h5 class="card-title mb-3">{{firstArticle.title}}</h5></a>
-                                <p class="card-text mb-0">{{firstArticle.summary}}</p>
+                                <!-- <a class="text-decoration-none link-dark stretched-link" href="/news/read/{{firstURL}}/"><h5 class="card-title mb-3">{{firstArticle.title}}</h5></a> -->
+                                <p class="card-text mb-0">{{article.summary}}</p>
                             </div>
                          
                             <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -77,7 +77,7 @@
                                         <!-- <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." /> -->
                                         <div class="small">
 
-                                            <div class="text-muted">{{firstArticle.postDate}}</div>
+                                            <div class="text-muted">{{article.postDate}}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -85,55 +85,7 @@
                         </div>
                         
                     </div>
-
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src = {{secondArticle.articleImage.url}} alt="..." width="600" height="350"/>
-                            <div class="card-body p-4">
-                                <a class="text-decoration-none link-dark stretched-link" href="/news/read/{{secondURL}}/"><h5 class="card-title mb-3">{{secondArticle.title}}</h5></a>
-                                <p class="card-text mb-0">{{secondArticle.summary}}</p>
-
-                            </div>
-                         
-                            <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                <div class="d-flex align-items-end justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <!-- <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." /> -->
-                                        <div class="small">
-
-                                            <div class="text-muted">{{secondArticle.postDate}}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="col-lg-4 mb-5">
-                        <div class="card h-100 shadow border-0">
-                            <img class="card-img-top" src = {{thirdArticle.articleImage.url}} alt="..." width="600" height="350"/>
-                            <div class="card-body p-4">
-                                <a class="text-decoration-none link-dark stretched-link" href="/news/read/{{thirdURL}}/"><h5 class="card-title mb-3">{{thirdArticle.title}}</h5></a>
-                                <p class="card-text mb-0">{{thirdArticle.summary}}</p>
-
-                            </div>
-                         
-                            <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                <div class="d-flex align-items-end justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <!-- <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." /> -->
-                                        <div class="small">
-
-                                            <div class="text-muted">{{thirdArticle.postDate}}</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                   
+                    {% endfor %}
                 </div>
             </section>
             <!-- gatau dah section-->

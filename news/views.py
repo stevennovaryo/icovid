@@ -10,15 +10,22 @@ from django.http import JsonResponse
 def index(request):
 
     articleList = list(Article.objects.all())
-    firstArticle = articleList[len(articleList) - 1]
-    nextThreeArticles = articleList[len(articleList) - 4:len(articleList) - 1]
-    nextThreeArticles = nextThreeArticles[::-1]
 
-    context = {
+    if len(articleList) >= 4:
+        firstArticle = articleList[len(articleList) - 1]
+        nextThreeArticles = articleList[len(articleList) - 4:len(articleList) - 1]
+        nextThreeArticles = nextThreeArticles[::-1]
+
+        context = {
         'firstArticle' : firstArticle,
         'nextThreeArticles' : nextThreeArticles,
-    }
-    return render(request, 'news-home.html', context)
+        'articleList' : articleList
+        }
+        return render(request, 'news-home.html', context)
+
+    else:
+        context = {}
+        return render(request, 'no-articles.html', context)
 
 def read(request, id):
     article = Article.objects.get(title=id)
@@ -42,7 +49,6 @@ def postArticle(request):
 
 def load_more(request):
 
-    articleList = list(Article.objects.all())
     articleQuer = Article.objects.all()
     articleQuer = articleQuer[::-1]
     articleQuer = articleQuer[1::]
@@ -50,7 +56,7 @@ def load_more(request):
     offset=int(request.POST['offset'])
     limit=3
     posts=articleQuer[offset:limit+offset]
-    totalData=Article.objects.count()
+    totalData=Article.objects.count() - 1
     data={}
     posts_json=serializers.serialize('json', posts)
     return JsonResponse(data={

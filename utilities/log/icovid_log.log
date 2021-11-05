@@ -1,0 +1,44 @@
+2021-11-05 18:25:51 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-05 18:25:51 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-11-05 18:26:02 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 23927
+2021-11-05 18:26:02 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 23927
+2021-11-05 18:26:02 [ INFO    ] (basehttp.log_message) "GET /media/capt_2_.jpg HTTP/1.1" 304 0
+2021-11-05 18:26:02 [ INFO    ] (basehttp.log_message) "GET /media/capt_2_.jpg HTTP/1.1" 304 0
+2021-11-05 18:26:02 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:02 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:02 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:02 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:02 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:02 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:15 [ INFO    ] (basehttp.log_message) "POST /home/ HTTP/1.1" 302 0
+2021-11-05 18:26:15 [ INFO    ] (basehttp.log_message) "POST /home/ HTTP/1.1" 302 0
+2021-11-05 18:26:15 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:15 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:15 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:15 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:15 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:15 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:15 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:15 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:19 [ INFO    ] (basehttp.log_message) "POST /home/edit_feedback HTTP/1.1" 302 0
+2021-11-05 18:26:19 [ INFO    ] (basehttp.log_message) "POST /home/edit_feedback HTTP/1.1" 302 0
+2021-11-05 18:26:19 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:19 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:19 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:19 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:19 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:19 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:19 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:19 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:20 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:20 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:31 [ INFO    ] (basehttp.log_message) "GET /news/ HTTP/1.1" 200 4538
+2021-11-05 18:26:31 [ INFO    ] (basehttp.log_message) "GET /news/ HTTP/1.1" 200 4538
+2021-11-05 18:26:32 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:32 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 25042
+2021-11-05 18:26:32 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:32 [ WARNING ] (log.log_response) Not Found: /media/angele.jpg
+2021-11-05 18:26:32 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:32 [ WARNING ] (basehttp.log_message) "GET /media/angele.jpg HTTP/1.1" 404 3538
+2021-11-05 18:26:33 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-11-05 18:26:33 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
