@@ -40,14 +40,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'news',
+    'crispy_forms',
+    'django_cas_ng',
+    'utilities',
+    'django.contrib.sites',
+    'forum',
     'tracker',
     'profileapp',
     'home',
-    'utilities',
     'authentication',
-    'crispy_forms',
-    'django_cas_ng',
-    'news',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -105,6 +111,7 @@ if db_from_env != None:
 
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
     'django_cas_ng.backends.CASBackend',
 )
 
@@ -121,6 +128,25 @@ CAS_FORCE_CHANGE_USERNAME_CASE = 'lower'
 SSO_UI_ORG_DETAIL_FILE_PATH = "authentication/static/org_codes.json"
 SSO_UI_ORG_DETAIL_LANG = "id"
 
+
+# All auth account configuration
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        }
+    }
+}
+
+SITE_ID = 3
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -178,19 +204,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-# Static asset configuration
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-    os.path.join(BASE_DIR, 'db.sqlite3')
-)
-
 # For making log files (module utilities)
 LOGGING = {
     "version": 1,
@@ -221,5 +234,3 @@ LOGGING = {
         },
     },
 }
-
-CRISPY_TEMPLATE_PACK = 'bootstrap4'

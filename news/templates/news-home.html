@@ -1,5 +1,5 @@
-
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="col-lg-6 col-xl-7">
                                     <div class="bg-featured-blog">
-                                        <img src = "{{ firstArticle.articleImage }}" alt="" width="700" height="380">
+                                        <img src = "/news/media/{{ firstArticle.articleImage }}" alt="" width="700" height="380">
                                     </div>
                                 </div> 
                             </div>
@@ -54,7 +54,7 @@
                         {% for article in nextThreeArticles %}
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src = {{article.articleImage}} alt="..." width="600" height="220"/>
+                                <img class="card-img-top" src="/news/media/{{article.articleImage}}" alt="..." width="600" height="220"/>
                                 <div class="card-body p-4">
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">{{article.title}}</div></a>
                                     <p class="card-text mb-0">{{article.summary}}</p>
@@ -75,8 +75,10 @@
                         {% endfor %}
                         
                     </div>
+                    {% if articleList|length > 4 %}
+                    <button class="btn btn-dark" id="loadmoreBtn" style="background-color:rgb(13,110,253); border: none;">Load More</button>
+                    {% endif %}
                     
-                    <button class="btn btn-dark" id="loadmoreBtn">Load More</button>
                     
                 </div>
             </section>
@@ -108,11 +110,11 @@
                             $.each(json_data,function(index,data){
                                 _html+='<div class="col-lg-4 mb-5">\
                             <div class="card h-100 shadow border-0">\
-                                <img class="card-img-top" src = '+data.fields.articleImage+' alt="..." width="600" height="220"/>\
+                                <img class="card-img-top" src="/news/media/'+data.fields.articleImage+'/" alt="..." width="600" height="220"/>\
                                 <div class="card-body p-4">\
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">'+data.fields.title+'</div></a>\
                                     <p class="card-text mb-0">'+data.fields.summary+'</p>\
-                                    <a class="stretched-link text-decoration-none" href="./'+data.fields.title.replaceAll(" ", "%20") + '/'+'">Click to read more<i class="bi bi-arrow-right"></i></a>\
+                                    <a class="stretched-link text-decoration-none" href="./read/'+data.fields.title.replaceAll(" ", "%20").replaceAll("?", "%3F").replaceAll(".", "%2E").replaceAll(",", "%2C").replaceAll("!", "%21") + '/'+'">Click to read more<i class="bi bi-arrow-right"></i></a>\
                                 </div>\
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">\
                                     <div class="d-flex align-items-end justify-content-between">\
