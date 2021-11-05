@@ -20,12 +20,14 @@ import tracker.urls as tracker
 from django.conf.urls.static import static
 from django.conf import settings
 from .views import index
+import forum.urls as forum
 import utilities.urls as utilities
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', index),
+    path('forum/', include(forum)),
+    path('admin/', admin.site.urls),
     path('tracker/', include(tracker)),
     path('administrator/', include('utilities.urls')),
     path('profileapp/',include('profileapp.urls')),
