@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from django_cas_ng import views as cas_views
 from .views import loginApi, loginView, signupApi, signupView, logoutView
 
