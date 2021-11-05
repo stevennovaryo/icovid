@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #58718e;
+  background-color: #ffffff;
 }
 
 header#utilities {  
@@ -9,7 +9,7 @@ header#utilities {
   justify-content: flex-end;
   align-items: baseline;
   padding: 0px 2%;
-  background-color: #83aae1;  
+  background-color: #ffffff;  
 }
 
 li#utilities, a#utilities, button#utilities{
