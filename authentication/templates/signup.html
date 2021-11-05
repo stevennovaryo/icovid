@@ -5,7 +5,7 @@
 <div class='auth-form'>
   <div class="w-100">
     <h2 class="login-text">Sign Up</h2>
-    <div class="flex-column d-flex align-items-center justify-content-between">
+    <div class="flex-column d-flex align-items-center justify-content-between px-3">
       <form class="mb-3 d-flex flex-column">
         {% csrf_token %}
         {% crispy form %}
@@ -38,9 +38,9 @@
         }
       }).done((response, textStatus, xhr) => { window.location.pathname = '/home/' }
       ).fail((response, textStatus, xhr) => {
-          console.log(response.responseJSON.error)
           $('#loading-message').empty()
-          $('#loading-message').css({'color': 'red'})
+          console.log(response.responseJSON.error)
+          $('p.error_messages').remove();
           form_error = response.responseJSON.error
           for (const key in form_error) {
             console.log(form_error[key])
@@ -51,7 +51,9 @@
               var new_elem = document.createElement("p")
               new_elem.innerHTML = error
               $(new_elem).css({'margin': '0'})
-              $('#loading-message').append(new_elem)
+              $(new_elem).addClass('error_messages')
+              $(new_elem).css({'color': 'red'})
+              $(`#div_id_${key}`).append(new_elem)
             });
           }
         }
