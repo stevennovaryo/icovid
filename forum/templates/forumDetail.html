@@ -86,6 +86,15 @@
                                             <input type="submit" value="Submit">
                                             <!-- <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div> -->
                                         </form>
+                                    {% else %}
+                                        <div class="d-flex mb-4">
+                                            <!-- Parent comment-->
+                                            <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                            <div class="ms-3">
+                                                <div class="h6 fw-bolder">Silahkan <a href="../../auth/login">Login</a> untuk memberikan komentar</div>
+                                            </div>
+                                        </div>
+                                        
                                     {% endif %}
                                     <div class="card-body comments">
                                         {% for c in comments%}

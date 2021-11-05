@@ -36,6 +36,8 @@
 
                                     {% if user.is_authenticated %}
                                         <div class="h6 fw-bolder"><a href="postToForum/">Tambah Thread Baru</a></div>
+                                    {% else %}
+                                        <div class="h6 fw-bolder">Silahkan <a href="../auth/login">Login</a> untuk masuk bergabung pada forum</div>
                                     {% endif %}
                                 </div>
                             </div>
