@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', decouple.config('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost','localhost:8000']
 
 # Application definition
 
@@ -41,10 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'news',
-    'authentication',
     'crispy_forms',
     'django_cas_ng',
     'utilities',
+    'profileapp',
+    'home',
+    'authentication',
 ]
 
 MIDDLEWARE = [
@@ -161,6 +163,10 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 django_heroku.settings(locals())
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # where are uploaded files will be localted on file system
+MEDIA_URL = '/media/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Enable compression and caching features of whitenoise.
 # You can remove this if it causes problems on your setup.
@@ -173,6 +179,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Static asset configuration
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = 'staticfiles'
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'db.sqlite3')
+)
+
 # For making log files (module utilities)
 LOGGING = {
     "version": 1,
@@ -182,7 +199,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": BASE_DIR/'utilities/log/icovid_log.log',
+            "filename":'utilities/log/icovid_log.log',
             "formatter": "app",
         },
     },
@@ -203,3 +220,5 @@ LOGGING = {
         },
     },
 }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

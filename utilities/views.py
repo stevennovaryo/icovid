@@ -6,7 +6,9 @@ from django.http import JsonResponse
 from django.core import serializers
 from .models import Announcement
 from .forms import AnnouncementForm
+from django.contrib.auth.decorators import user_passes_test
 
+@user_passes_test(lambda u: u.is_superuser)
 def make_announcement(request):
     form = AnnouncementForm(request.POST or None)
 
@@ -19,6 +21,7 @@ def make_announcement(request):
     response = {'form': form}
     return render(request, 'utilities_make_announcement.html', response)
 
+@user_passes_test(lambda u: u.is_superuser)
 def get_announcement(request):
     announcement = Announcement.objects.all()
     
@@ -28,6 +31,7 @@ def get_announcement(request):
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+@user_passes_test(lambda u: u.is_superuser)
 def see_log(request):
     log_file = open(BASE_DIR/'utilities/log/icovid_log.log','r')
     log_content_dirty = log_file.readlines()
