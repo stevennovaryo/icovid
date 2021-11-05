@@ -18,13 +18,18 @@ from django.urls import path, include
 from django.conf.urls.static import static
 from django.conf import settings
 from .views import index
+import utilities.urls as utilities
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
     path('profileapp/',include('profileapp.urls')),
     path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
+    path('administrator/', include('utilities.urls')),
+    path('news/', include(('news.urls', 'news'), namespace='news')),
+    path('home/', include(('home.urls', 'home'), namespace='home/')),
+    path('', index)
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

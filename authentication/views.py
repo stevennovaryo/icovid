@@ -12,7 +12,7 @@ from . import schema as schema
 
 def loginView(request):
   if(request.user.is_authenticated):
-    return redirect('/')
+    return redirect('/home')
   
   prop = {
     'type': 'login',
@@ -32,7 +32,7 @@ def signupView(request):
 
 def logoutView(request):
   logout(request)
-  return redirect('/auth/login')
+  return redirect('/auth/login/')
 
 
 @csrf_protect

@@ -3,7 +3,7 @@
 
 {% if user.is_authenticated %}
 <div class="justify-content-center flex-wrap" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); border-radius: 0.5%;">
-    <div class="card-header bg-gradient" style="text-align: center;">
+    <div class="card-header bg-light" style="text-align: center;">
         <h2 style="color:#2d1f2c; padding: 1em 0 0.5em 0; text-align: center; font-weight: bolder;"> {{ user.profile.name }} Profile</h2>
         <hr style="width:100%; text-align:center;">
         <img src="{{ user.profile.avatar.url }}" class="card-img-top rounded-circle" alt="profile picture"  style="max-height:400px;width:350px;object-fit: cover; border-radius: 1%;">
