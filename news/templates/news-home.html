@@ -76,8 +76,10 @@
                         {% endfor %}
                         
                     </div>
-                    
+                    {% if articleList|length > 4 %}
                     <button class="btn btn-dark" id="loadmoreBtn" style="background-color:rgb(13,110,253); border: none;">Load More</button>
+                    {% endif %}
+                    
                     
                 </div>
             </section>

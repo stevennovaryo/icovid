@@ -6,6 +6,7 @@
 
 <form method="POST" enctype="multipart/form-data" class="form-control" style="text-align: center;">
     <h1 class="fw-bolder fs-4 mb-4" >Add an Article</h1>
+    <h1 class="fw-bolder fs-6 mb-4" >( Make at least 4 to display them )</h1>
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Submit">

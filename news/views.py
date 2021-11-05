@@ -10,15 +10,22 @@ from django.http import JsonResponse
 def index(request):
 
     articleList = list(Article.objects.all())
-    firstArticle = articleList[len(articleList) - 1]
-    nextThreeArticles = articleList[len(articleList) - 4:len(articleList) - 1]
-    nextThreeArticles = nextThreeArticles[::-1]
 
-    context = {
+    if len(articleList) >= 4:
+        firstArticle = articleList[len(articleList) - 1]
+        nextThreeArticles = articleList[len(articleList) - 4:len(articleList) - 1]
+        nextThreeArticles = nextThreeArticles[::-1]
+
+        context = {
         'firstArticle' : firstArticle,
         'nextThreeArticles' : nextThreeArticles,
-    }
-    return render(request, 'news-home.html', context)
+        'articleList' : articleList
+        }
+        return render(request, 'news-home.html', context)
+
+    else:
+        context = {}
+        return render(request, 'no-articles.html', context)
 
 def read(request, id):
     article = Article.objects.get(title=id)
