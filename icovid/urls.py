@@ -32,6 +32,7 @@ urlpatterns = [
     path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
     path('news/', include(('news.urls', 'news'), namespace='news')),
     path('home/', include(('home.urls', 'home'), namespace='home/')),
+    path('accounts/', include('allauth.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
