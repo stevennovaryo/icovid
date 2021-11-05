@@ -29,7 +29,6 @@ import utilities.urls as utilities
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('news/', include(news)),
-    path('auth/', include(('authentication.urls', 'authentication'), namespace='authentication')),
     path('administrator/', include('utilities.urls')),
     path('profileapp/',include('profileapp.urls')),
     path('', index),
