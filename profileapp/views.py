@@ -38,7 +38,7 @@ def profileupdate(request):
             # profilelist.append(data_dict)
             # return JsonResponse(data_dict, safe=False)
             return redirect('user-profile')
-        return redirect('user-profile')
+        # return redirect('user-profile')
         #     messages.success(request, ('Your profile has been updated!'))
         # else:
         #     messages.error(request, ('Unable to update your profile'))
@@ -62,4 +62,4 @@ def otheruserprofile(request, id):
 def profiledatas(request):
     form = Profile.objects.all()
     data = serializers.serialize('json', form)
-    return HttpResponse(data, content_type="applications/json")
+    return HttpResponse(data, content_type='application/json')
