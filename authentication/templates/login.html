@@ -1,11 +1,12 @@
 {% load static %}
 {% load crispy_forms_tags %}
+{% load socialaccount %}
 
 {% block content %}
 <div class='auth-form'>
   <div class="w-100">
     <h2 class="login-text">Login</h2>
-    <div class="flex-column d-flex align-items-center justify-content-between">
+    <div class="flex-column d-flex align-items-center justify-content-between px-3">
       <form class="mb-3 d-flex flex-column">
         {% csrf_token %}
         {% crispy form %}
@@ -14,6 +15,7 @@
         <a class="btn btn-outline-warning m-2 rounded-pill" href='{% url "authentication:loginsso" %}'>
           Login with SSO UI
         </a>
+        <a class="btn btn-outline-success m-2 rounded-pill" href="{% provider_login_url 'google' %}">Login With Google</a>
         <p>Belum punya akun? <a href='{% url "authentication:signup" %}'>Daftar di sini</a></p>
       </form>
     </div>
@@ -35,7 +37,7 @@
           $("#loading-message").html('Please wait...')
           $('#loading-message').css({'color': 'gray'})
         }
-      }).done((response, textStatus, xhr) => { window.location.pathname = '/' }
+      }).done((response, textStatus, xhr) => { window.location.pathname = '/home/' }
       ).fail((response, textStatus, xhr) => {
           console.log(response.responseJSON.message)
           $("#loading-message").html(response.responseJSON.message)
