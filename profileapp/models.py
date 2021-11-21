@@ -37,7 +37,7 @@ class Profile(models.Model):
 
         # resize avatar to speed up website
         img = Image.open(self.avatar.path)
-        if img.height > 350 or img.width > 350:
+        if (img.height > 350 or img.width > 350):
             out_size = (350,350)
             img.thumbnail(out_size)
             img.save(self.avatar.path)
