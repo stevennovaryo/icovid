@@ -1,0 +1,342 @@
+2021-12-30 10:11:34 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 10:11:34 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /tracker HTTP/1.1" 301 0
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /tracker HTTP/1.1" 301 0
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 6847
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 6847
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 200 6278
+2021-12-30 10:12:01 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 200 6278
+2021-12-30 10:12:02 [ INFO    ] (basehttp.log_message) "GET /static/script.js HTTP/1.1" 200 7478
+2021-12-30 10:12:02 [ INFO    ] (basehttp.log_message) "GET /static/script.js HTTP/1.1" 200 7478
+2021-12-30 10:12:02 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-30 10:12:02 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-30 10:12:02 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-30 10:12:02 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /auth/login/ HTTP/1.1" 200 4024
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /auth/login/ HTTP/1.1" 200 4024
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/css/form.css HTTP/1.1" 200 387
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/css/form.css HTTP/1.1" 200 387
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/css/index.css HTTP/1.1" 200 1111
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/css/index.css HTTP/1.1" 200 1111
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/icovid.svg HTTP/1.1" 200 4292
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/icovid.svg HTTP/1.1" 200 4292
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/background.jpg HTTP/1.1" 200 376611
+2021-12-30 10:12:07 [ INFO    ] (basehttp.log_message) "GET /static/background.jpg HTTP/1.1" 200 376611
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20334
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20334
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:13 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:17 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11402
+2021-12-30 10:12:17 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11402
+2021-12-30 10:12:17 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:17 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:27 [ INFO    ] (basehttp.log_message) "POST /tracker/ HTTP/1.1" 302 0
+2021-12-30 10:12:27 [ INFO    ] (basehttp.log_message) "POST /tracker/ HTTP/1.1" 302 0
+2021-12-30 10:12:27 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11403
+2021-12-30 10:12:27 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11403
+2021-12-30 10:12:27 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:27 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:30 [ INFO    ] (basehttp.log_message) "POST /tracker/ HTTP/1.1" 302 0
+2021-12-30 10:12:30 [ INFO    ] (basehttp.log_message) "POST /tracker/ HTTP/1.1" 302 0
+2021-12-30 10:12:30 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 10:12:30 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 10:12:30 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:12:30 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:13:54 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:13:54 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:13:54 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:13:54 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:13:54 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:13:54 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:13:54 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:13:54 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:13:55 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:13:55 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:14:26 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:14:26 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:14:26 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:14:26 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:14:26 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:14:26 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:14:26 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:14:26 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:14:26 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:14:26 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:14:57 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:14:57 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:14:57 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:14:57 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:14:57 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:14:57 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:14:57 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:14:57 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:14:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:14:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:16:15 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:16:15 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:16:15 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:16:15 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:16:15 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:16:15 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:16:15 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:16:15 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:16:15 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:16:15 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:18:59 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:18:59 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:18:59 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:18:59 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:18:59 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:18:59 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:18:59 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:18:59 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:18:59 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:18:59 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:20:32 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:20:32 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:20:32 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:20:32 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:20:32 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:20:32 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:20:32 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:20:32 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:20:32 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:20:32 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:22:54 [ INFO    ] (autoreload.trigger_reload) C:\ProjectCollection\PBP\icovid\tracker\schema.py changed, reloading.
+2021-12-30 10:22:54 [ INFO    ] (autoreload.trigger_reload) C:\ProjectCollection\PBP\icovid\tracker\schema.py changed, reloading.
+2021-12-30 10:22:55 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 10:22:55 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 10:23:43 [ INFO    ] (autoreload.trigger_reload) C:\ProjectCollection\PBP\icovid\tracker\views.py changed, reloading.
+2021-12-30 10:23:43 [ INFO    ] (autoreload.trigger_reload) C:\ProjectCollection\PBP\icovid\tracker\views.py changed, reloading.
+2021-12-30 10:23:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 10:23:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 10:24:57 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:24:57 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:24:57 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:24:57 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:24:58 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:25:19 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-12-30 10:25:19 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-12-30 10:26:27 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:26:27 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:26:27 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:26:27 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:26:27 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:29:04 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:29:04 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:29:04 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:29:04 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:29:04 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:29:04 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:29:04 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:29:04 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:29:04 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:29:04 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:29:05 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:29:05 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:30:37 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:30:37 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:30:37 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:30:37 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:30:37 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:31:10 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:31:10 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:31:10 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:31:10 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:31:10 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "POST /tracker/ HTTP/1.1" 302 0
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "POST /tracker/ HTTP/1.1" 302 0
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /static/script.js HTTP/1.1" 304 0
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /static/script.js HTTP/1.1" 304 0
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 304 0
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 304 0
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:32:21 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 10:32:32 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:32:32 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:32:32 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:32:32 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:32:32 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:37:58 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:37:58 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 10:37:58 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:37:58 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 10:37:58 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 11:15:35 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 11:15:35 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 11:15:35 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 11:15:35 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 11:15:35 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 11:15:35 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 11:15:35 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 11:15:35 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 11:15:36 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 11:15:36 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 11:15:36 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 11:15:36 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 11:17:01 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 11:17:01 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 11:17:01 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 11:17:01 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 11:17:01 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 11:17:01 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 11:17:01 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 11:17:01 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 11:17:01 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 11:17:01 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 11:17:02 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 11:17:02 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 11:17:56 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 11:17:56 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 11:17:56 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 11:17:56 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 11:17:56 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 11:17:56 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 11:17:56 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 11:17:56 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 11:17:56 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 11:17:56 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 11:17:57 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 11:17:57 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 12:45:19 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:45:19 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11404
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11404
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 304 0
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 304 0
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 304 0
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /static/script.js HTTP/1.1" 304 0
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /static/script.js HTTP/1.1" 304 0
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:45:26 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:45:51 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:45:51 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:45:54 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11403
+2021-12-30 12:45:54 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11403
+2021-12-30 12:45:54 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:45:54 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:46:59 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 12:46:59 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 12:46:59 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 12:46:59 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 12:46:59 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 12:46:59 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 12:46:59 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 12:46:59 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 12:46:59 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 12:46:59 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 12:47:00 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 72
+2021-12-30 12:47:00 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 72
+2021-12-30 12:47:12 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:47:12 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /auth/logout/ HTTP/1.1" 302 0
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /auth/logout/ HTTP/1.1" 302 0
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /auth/login/ HTTP/1.1" 200 4024
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /auth/login/ HTTP/1.1" 200 4024
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/css/index.css HTTP/1.1" 200 1111
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/css/index.css HTTP/1.1" 200 1111
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/css/form.css HTTP/1.1" 200 387
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/css/form.css HTTP/1.1" 200 387
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/icovid.svg HTTP/1.1" 200 4292
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/icovid.svg HTTP/1.1" 200 4292
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/background.jpg HTTP/1.1" 200 376611
+2021-12-30 12:47:21 [ INFO    ] (basehttp.log_message) "GET /static/background.jpg HTTP/1.1" 200 376611
+2021-12-30 12:47:28 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 12:47:28 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 12:47:28 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20334
+2021-12-30 12:47:28 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20334
+2021-12-30 12:47:28 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-30 12:47:28 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-30 12:47:29 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:47:29 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:47:30 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 12:47:30 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 12:47:30 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:47:30 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:48:10 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:48:10 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:48:16 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11404
+2021-12-30 12:48:16 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11404
+2021-12-30 12:48:16 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:48:16 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:48:34 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:48:34 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 12:48:36 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 12:48:36 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 12:48:36 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 12:48:36 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 13:02:36 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 13:02:36 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-30 13:02:36 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 13:02:36 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-30 13:02:36 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 13:02:36 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-30 13:02:36 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 13:02:36 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-30 13:02:36 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 13:02:36 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-30 13:02:37 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 13:02:37 [ INFO    ] (basehttp.log_message) "POST /tracker/api/get/ HTTP/1.1" 200 73
+2021-12-30 13:02:44 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 13:02:44 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 13:02:51 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11404
+2021-12-30 13:02:51 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11404
+2021-12-30 13:02:51 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 13:02:51 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 13:03:03 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 13:03:03 [ INFO    ] (basehttp.log_message) "POST /tracker/api/update/ HTTP/1.1" 200 33
+2021-12-30 13:03:05 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 13:03:05 [ INFO    ] (basehttp.log_message) "GET /tracker/ HTTP/1.1" 200 11405
+2021-12-30 13:03:05 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 13:03:05 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
