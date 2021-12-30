@@ -11,7 +11,7 @@ $(document).ready(function(){
         $('#jumlah_meninggal').text(data.meninggal.toLocaleString("en-US"));
     });
 
-    $.getJSON("http://apicovid19indonesia-v2.vercel.app/api/indonesia/harian", 
+    $.getJSON("https://apicovid19indonesia-v2.vercel.app/api/indonesia/harian", 
     function(data){
         const dataset_positif = [];
         const dataset_sembuh = [];

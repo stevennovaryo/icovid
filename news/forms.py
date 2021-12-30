@@ -10,5 +10,4 @@ class articleForm(forms.ModelForm):
             'articleImage',
             'body',
             'summary'
-        
         ]

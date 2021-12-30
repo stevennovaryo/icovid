@@ -4,22 +4,42 @@ from home.forms import FeedbackForm
 from home.models import Feedback
 from news.models import Article
 from django.contrib.auth.models import User
+from django.views.decorators.csrf import csrf_exempt
+from django.core import serializers
+from django.http import JsonResponse
+from django.http import HttpResponse
+import json 
 
+
+@csrf_exempt
+def get_data(request):
+    all_feedback_groups = Feedback.objects.all()
+
+    all_feedback_list = []
+    for group in all_feedback_groups:
+        group_dict = {
+                "id" : int(group.pk),
+                "pengirim": group.pengirim,
+                "message":group.message,
+                "ratings":group.ratings,
+        }
+        all_feedback_list.append(group_dict)
+    
+
+    # Serialize query set to json
+    data = json.dumps(all_feedback_list)
+
+    return HttpResponse(data, content_type='application/json')
 
 def index(request):
-    
+  
     feedbacks = Feedback.objects.all().order_by("-created_at")[:4]
     feedbacksAll = Feedback.objects.filter(user_id = request.user.id)
     articleList = Article.objects.all()[::-1]
-    # articleList = articleList[:3]
-    firstArticle = articleList[0]
-    secondArticle = articleList[1]
-    thirdArticle = articleList[2]
-    firstURL = firstArticle.title.replace(" ","%20") 
-    secondURL = secondArticle.title.replace(" ","%20") 
-    thirdURL = thirdArticle.title.replace(" ","%20") 
-    context ={'feedbacks':feedbacks,'feedbacksAll':feedbacksAll,'firstArticle':firstArticle,'secondArticle':secondArticle,'thirdArticle':thirdArticle,'firstURL':firstURL,'secondURL':secondURL,
-    'thirdURL':thirdURL}
+    context ={} 
+    articleList = articleList[:3]
+    context ={'feedbacks':feedbacks,'feedbacksAll':feedbacksAll,'articleList':articleList}
+
     # create object of form
     form = FeedbackForm(request.POST or None, request.FILES or None)
       
@@ -59,3 +79,6 @@ def delete_feedback(request):
         Feedback.objects.filter(id=id).delete()
     return HttpResponseRedirect("/home/")
 
+
+# def add_from_flutter :
+  
