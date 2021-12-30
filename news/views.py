@@ -5,6 +5,17 @@ from news.forms import articleForm
 from news.models import Article
 from django.core import serializers
 from django.http import JsonResponse
+from django.http.response import HttpResponseRedirect
+from django.shortcuts import render
+from home.forms import FeedbackForm
+from home.models import Feedback
+from news.models import Article
+from django.contrib.auth.models import User
+from django.views.decorators.csrf import csrf_exempt
+from django.core import serializers
+from django.http import JsonResponse
+from django.http import HttpResponse
+import json 
 
 # Create your views here.
 def index(request):
@@ -63,3 +74,22 @@ def load_more(request):
         'posts':posts_json,
         'totalResult':totalData
     })
+
+@csrf_exempt
+def get_article(request):
+    all_articles = Article.objects.all()
+
+    articles_list = []
+    for i in all_articles:
+        dict = {
+                "title" : i.title,
+                "summary" : i.summary,
+                "body" : i.body,
+                "postDate" : str(i.postDate),
+        }
+        articles_list.append(dict)
+
+    # Serialize query set to json
+    data = json.dumps(articles_list)
+
+    return HttpResponse(data, content_type='application/json')
