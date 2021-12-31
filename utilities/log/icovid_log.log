@@ -1378,3 +1378,97 @@ TypeError: Object of type datetime is not JSON serializable
 2021-12-31 08:10:39 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\icovid\urls.py changed, reloading.
 2021-12-31 08:10:40 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 2021-12-31 08:10:40 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 08:21:02 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 08:21:02 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 08:21:03 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 08:21:03 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 09:51:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 09:51:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 09:51:41 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 09:51:41 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 09:51:57 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome HTTP/1.1" 301 0
+2021-12-31 09:51:57 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome HTTP/1.1" 301 0
+2021-12-31 09:51:57 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 09:51:57 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:27:16 [ INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 302 0
+2021-12-31 10:27:16 [ INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 302 0
+2021-12-31 10:27:16 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:27:16 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:27:17 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-31 10:27:17 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-31 10:27:17 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-12-31 10:27:17 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-12-31 10:27:18 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 200 6278
+2021-12-31 10:27:18 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 200 6278
+2021-12-31 10:27:19 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-31 10:27:19 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-31 10:27:19 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3405
+2021-12-31 10:27:19 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3405
+2021-12-31 10:28:19 [ INFO    ] (basehttp.log_message) "GET /auth/api/login HTTP/1.1" 301 0
+2021-12-31 10:28:19 [ INFO    ] (basehttp.log_message) "GET /auth/api/login HTTP/1.1" 301 0
+2021-12-31 10:28:19 [ WARNING ] (log.log_response) Bad Request: /auth/api/login/
+2021-12-31 10:28:19 [ WARNING ] (log.log_response) Bad Request: /auth/api/login/
+2021-12-31 10:28:19 [ WARNING ] (basehttp.log_message) "GET /auth/api/login/ HTTP/1.1" 400 27
+2021-12-31 10:28:19 [ WARNING ] (basehttp.log_message) "GET /auth/api/login/ HTTP/1.1" 400 27
+2021-12-31 10:29:35 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:29:35 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:29:35 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:29:35 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:29:35 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:29:35 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:29:35 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:29:35 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:29:35 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:29:35 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:29:37 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:29:37 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:31:18 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:31:18 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:31:18 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:31:18 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:31:18 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:31:18 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:31:18 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:31:18 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:31:18 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:31:18 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:31:20 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:31:20 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:34:28 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:34:28 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:34:28 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:34:28 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:34:28 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:34:28 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:34:28 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:34:28 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:34:28 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:34:28 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:34:31 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:34:31 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:35:25 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:35:25 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 10:35:25 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:35:25 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 10:35:25 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:35:25 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 10:35:25 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:35:25 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 10:35:25 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:35:25 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 10:35:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:35:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:36:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:36:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:37:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:37:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:38:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:38:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:39:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:39:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:39:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:39:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:40:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:40:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:41:16 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:41:16 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
