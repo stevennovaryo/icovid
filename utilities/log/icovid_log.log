@@ -824,3 +824,347 @@ TypeError: Object of type date is not JSON serializable
 2021-12-30 12:13:51 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
 2021-12-30 12:13:59 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
 2021-12-30 12:13:59 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
+2021-12-30 13:22:14 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 13:22:14 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 13:22:20 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 13:22:20 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:28:38 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 14:28:38 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 14:29:00 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 26765
+2021-12-30 14:29:00 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 26765
+2021-12-30 14:29:00 [ WARNING ] (log.log_response) Not Found: /media/ciella.jpg
+2021-12-30 14:29:00 [ WARNING ] (log.log_response) Not Found: /media/ciella.jpg
+2021-12-30 14:29:00 [ WARNING ] (log.log_response) Not Found: /media/EUREKA_LOGO-min_dGySF0f.jpg
+2021-12-30 14:29:00 [ WARNING ] (log.log_response) Not Found: /media/EUREKA_LOGO-min_dGySF0f.jpg
+2021-12-30 14:29:00 [ WARNING ] (basehttp.log_message) "GET /media/EUREKA_LOGO-min_dGySF0f.jpg HTTP/1.1" 404 3501
+2021-12-30 14:29:00 [ WARNING ] (basehttp.log_message) "GET /media/EUREKA_LOGO-min_dGySF0f.jpg HTTP/1.1" 404 3501
+2021-12-30 14:29:00 [ WARNING ] (basehttp.log_message) "GET /media/ciella.jpg HTTP/1.1" 404 3433
+2021-12-30 14:29:00 [ WARNING ] (basehttp.log_message) "GET /media/ciella.jpg HTTP/1.1" 404 3433
+2021-12-30 14:29:00 [ WARNING ] (log.log_response) Not Found: /media/EUREKA_LOGO-min_vIF5Dpy.jpg
+2021-12-30 14:29:00 [ WARNING ] (log.log_response) Not Found: /media/EUREKA_LOGO-min_vIF5Dpy.jpg
+2021-12-30 14:29:00 [ WARNING ] (basehttp.log_message) "GET /media/EUREKA_LOGO-min_vIF5Dpy.jpg HTTP/1.1" 404 3501
+2021-12-30 14:29:00 [ WARNING ] (basehttp.log_message) "GET /media/EUREKA_LOGO-min_vIF5Dpy.jpg HTTP/1.1" 404 3501
+2021-12-30 14:29:01 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 14:29:01 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 200 2
+2021-12-30 14:29:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:29:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:29:04 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-30 14:29:04 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-30 14:29:04 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3199
+2021-12-30 14:29:04 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3199
+2021-12-30 14:29:04 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:29:04 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:30:17 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 14:30:17 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 14:30:18 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:30:18 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:30:34 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 14:30:34 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 14:30:34 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 14:30:34 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 15:21:31 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
+2021-12-30 15:21:31 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
+2021-12-30 16:57:26 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 16:57:26 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 16:57:28 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 16:57:28 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:13:33 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 17:13:33 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 17:13:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:13:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:14:32 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/urls.py changed, reloading.
+2021-12-30 17:14:32 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/urls.py changed, reloading.
+2021-12-30 17:14:33 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:14:33 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:14:57 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 17:14:57 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 17:14:57 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 20
+2021-12-30 17:14:57 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 20
+2021-12-30 17:14:58 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 17:14:58 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 17:14:58 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 20
+2021-12-30 17:14:58 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 20
+2021-12-30 17:15:20 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 17:15:20 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 17:15:21 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:15:21 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 17:17:51 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 11852
+2021-12-30 17:17:51 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 11852
+2021-12-30 17:17:54 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:17:54 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:17:54 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:17:54 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:17:56 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:17:56 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:17:56 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:17:56 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:17:57 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:17:57 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:17:57 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:17:57 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:18:00 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/2/change/ HTTP/1.1" 200 12938
+2021-12-30 17:18:00 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/2/change/ HTTP/1.1" 200 12938
+2021-12-30 17:18:01 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:18:01 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 17:18:02 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:18:02 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11034
+2021-12-30 17:18:48 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 17:18:48 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 17:18:50 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 17:18:50 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 17:18:50 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 17:18:50 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 18:40:28 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 18:40:28 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 18:40:28 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 18:40:28 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 18:40:32 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 18:40:32 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 18:40:32 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 18:40:32 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 19:01:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 19:01:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 19:01:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 19:01:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 19:03:51 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 19:03:51 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 19:03:51 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 19:03:51 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 149
+2021-12-30 19:07:25 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:07:25 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:07:25 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:07:25 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:18 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 19:09:18 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 19:09:20 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 19:09:20 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 19:09:49 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:49 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:49 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:49 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:50 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:50 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:50 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:50 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:51 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:51 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:51 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:51 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:52 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:52 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:09:52 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:09:52 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:11:13 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 19:11:13 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 19:11:15 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 19:11:15 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 19:21:06 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 10
+2021-12-30 19:21:06 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 10
+2021-12-30 19:23:18 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:18 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:18 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:18 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:19 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:19 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:19 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:19 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:25 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:25 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:25 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:25 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:26 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:26 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 19:23:26 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 19:23:26 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 20:02:46 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 20:02:46 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 20:02:46 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 20:02:46 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:12:05 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 21:12:05 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 21:15:22 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:15:22 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:15:22 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-30 21:15:22 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-30 21:15:22 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3199
+2021-12-30 21:15:22 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3199
+2021-12-30 21:15:54 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:15:54 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:15:54 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:15:54 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:16:15 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:16:15 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:16:16 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:16:16 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 229
+2021-12-30 21:16:32 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 11852
+2021-12-30 21:16:32 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 11852
+2021-12-30 21:16:32 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 11852
+2021-12-30 21:16:32 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 11852
+2021-12-30 21:16:35 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11235
+2021-12-30 21:16:35 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11235
+2021-12-30 21:16:35 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:16:35 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:16:36 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/change/ HTTP/1.1" 200 12952
+2021-12-30 21:16:36 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/change/ HTTP/1.1" 200 12952
+2021-12-30 21:16:36 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:16:36 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:16:39 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/history/ HTTP/1.1" 200 8582
+2021-12-30 21:16:39 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/history/ HTTP/1.1" 200 8582
+2021-12-30 21:16:41 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/change/ HTTP/1.1" 200 12952
+2021-12-30 21:16:41 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/change/ HTTP/1.1" 200 12952
+2021-12-30 21:16:50 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11235
+2021-12-30 21:16:50 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11235
+2021-12-30 21:17:11 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 10
+2021-12-30 21:17:11 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 10
+2021-12-30 21:18:24 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/change/ HTTP/1.1" 200 12952
+2021-12-30 21:18:24 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/3/change/ HTTP/1.1" 200 12952
+2021-12-30 21:18:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:18:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:18:32 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:18:32 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:18:34 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/4/change/ HTTP/1.1" 200 12948
+2021-12-30 21:18:34 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/4/change/ HTTP/1.1" 200 12948
+2021-12-30 21:18:34 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:18:34 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:18:36 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:18:36 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:18:45 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:18:45 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:18:45 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:18:45 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:20:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:20:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:20:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 305
+2021-12-30 21:20:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 305
+2021-12-30 21:20:41 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:20:41 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:20:41 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 305
+2021-12-30 21:20:41 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 305
+2021-12-30 21:21:02 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 21:21:02 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 21:21:02 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 21:21:02 [ WARNING ] (basehttp.log_message) "PUT /home/add-data HTTP/1.1" 405 16
+2021-12-30 21:21:18 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:18 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:18 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:18 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:20 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:20 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:20 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:20 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:20 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:20 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:21 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:21 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:21 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:21 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:21 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:21 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:22 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:21:24 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:23:02 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:23:02 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11436
+2021-12-30 21:23:02 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:23:02 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:27:14 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 10
+2021-12-30 21:27:14 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 10
+2021-12-30 21:27:35 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11637
+2021-12-30 21:27:35 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11637
+2021-12-30 21:27:35 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:27:35 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:30:05 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 21:30:05 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 21:30:07 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 21:30:07 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 21:30:51 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 21:30:51 [ INFO    ] (autoreload.trigger_reload) /Users/graciella/Documents/FASILKOM SEM 3/PBP/icovid/home/views.py changed, reloading.
+2021-12-30 21:30:52 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 21:30:52 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-30 21:32:00 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:32:00 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:32:00 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 392
+2021-12-30 21:32:00 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 392
+2021-12-30 21:32:24 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 21:32:24 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 21:33:46 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11838
+2021-12-30 21:33:46 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 11838
+2021-12-30 21:33:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:33:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:45:44 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:45:44 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 21:45:44 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 466
+2021-12-30 21:45:44 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 466
+2021-12-30 21:46:16 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 21:46:16 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 21:52:47 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 21:52:47 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 21:53:08 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 12240
+2021-12-30 21:53:08 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 12240
+2021-12-30 21:53:08 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:53:08 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:53:10 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/7/change/ HTTP/1.1" 200 12952
+2021-12-30 21:53:10 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/7/change/ HTTP/1.1" 200 12952
+2021-12-30 21:53:10 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:53:10 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:53:12 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 12240
+2021-12-30 21:53:12 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 12240
+2021-12-30 21:53:14 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/8/change/ HTTP/1.1" 200 12953
+2021-12-30 21:53:14 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/8/change/ HTTP/1.1" 200 12953
+2021-12-30 21:53:14 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:53:14 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-30 21:53:16 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 12240
+2021-12-30 21:53:16 [ INFO    ] (basehttp.log_message) "GET /admin/home/feedback/ HTTP/1.1" 200 12240
+2021-12-30 22:09:47 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:09:47 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:09:47 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 627
+2021-12-30 22:09:47 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 627
+2021-12-30 22:10:05 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 22:10:05 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 22:12:45 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 22:12:45 [ INFO    ] (basehttp.log_message) "POST /home/add-data HTTP/1.1" 200 0
+2021-12-30 22:48:09 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:48:09 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:48:09 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 22:48:09 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 22:49:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:49:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:49:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 22:49:37 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 22:52:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:52:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 22:52:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 22:52:02 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:05:39 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:05:39 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:05:39 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:05:39 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:07:26 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:07:26 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:07:26 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:07:26 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:08:04 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:08:04 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:08:04 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:08:04 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:09:10 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:09:10 [ INFO    ] (basehttp.log_message) "GET /home/get-data HTTP/1.1" 301 0
+2021-12-30 23:09:10 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:09:10 [ INFO    ] (basehttp.log_message) "GET /home/get-data/ HTTP/1.1" 200 759
+2021-12-30 23:22:16 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 23:22:16 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
+2021-12-30 23:22:16 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-30 23:22:16 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
