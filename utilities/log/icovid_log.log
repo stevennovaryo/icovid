@@ -1472,3 +1472,7 @@ TypeError: Object of type datetime is not JSON serializable
 2021-12-31 10:40:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
 2021-12-31 10:41:16 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
 2021-12-31 10:41:16 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 10:46:56 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\home\views.py changed, reloading.
+2021-12-31 10:46:56 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\home\views.py changed, reloading.
+2021-12-31 10:46:57 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 10:46:57 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
