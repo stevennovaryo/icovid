@@ -4,6 +4,6 @@ from django.db import models
 class Article(models.Model):
     title = models.CharField(max_length=100)
     postDate = models.DateField()
-    articleImage = models.ImageField()
+    articleImage = models.TextField()
     body = models.TextField()
     summary = models.TextField()

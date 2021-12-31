@@ -79,23 +79,32 @@ def delete_feedback(request):
         Feedback.objects.filter(id=id).delete()
     return HttpResponseRedirect("/home/")
 
+# @csrf_exempt
+# def add_data_flutter(request):
+#     if (request.method == "POST"):
+#         body_unicode = request.body.decode('utf-8')
+#         body = json.loads(body_unicode)
+
+#         pengirim = body['pengirim']
+#         message = body["message"]
+#         ratings = body["ratings"]
+  
+#         try:
+#             feedback = Feedback(pengirim= pengirim, ratings=ratings, message = message)
+#             feedback.save()
+#             return HttpResponse(status=200)
+#         except Feedback.DoesNotExist:
+#             print("An error occurred")
+#             return HttpResponse("An error occurred", status=400, content_type="text/plain")
+#     return HttpResponse("Use POST Method", status=405, content_type="text/plain")
+
 @csrf_exempt
 def add_data_flutter(request):
-    if (request.method == "POST"):
-        body_unicode = request.body.decode('utf-8')
-        body = json.loads(body_unicode)
+    data = json.loads(request.body)
+    print(data)
+    form = FeedbackForm(data)
+    form.save()
 
-        pengirim = body['pengirim']
-        message = body["message"]
-        ratings = body["ratings"]
-  
-        try:
-            feedback = Feedback(pengirim= pengirim, ratings=ratings, message = message)
-            feedback.save()
-            return HttpResponse(status=200)
-        except Feedback.DoesNotExist:
-            print("An error occurred")
-            return HttpResponse("An error occurred", status=400, content_type="text/plain")
-    return HttpResponse("Use POST Method", status=405, content_type="text/plain")
-
-  
+    response = HttpResponse('success')
+    response.status_code = 200
+    return response
