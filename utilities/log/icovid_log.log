@@ -824,3 +824,557 @@ TypeError: Object of type date is not JSON serializable
 2021-12-30 12:13:51 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
 2021-12-30 12:13:59 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
 2021-12-30 12:13:59 [ INFO    ] (basehttp.log_message) "GET /news/get-article HTTP/1.1" 200 396
+2021-12-31 07:16:11 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:16:11 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:17:33 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:17:33 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:18:02 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:18:02 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:18:03 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:18:03 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:18:14 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:18:14 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:18:15 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:18:15 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:20:28 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:20:28 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:20:35 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:20:35 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:20:36 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:20:36 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:21:25 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:21:25 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:21:40 [ INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 302 0
+2021-12-31 07:21:40 [ INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 302 0
+2021-12-31 07:21:40 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 07:21:40 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 07:21:41 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-12-31 07:21:41 [ INFO    ] (basehttp.log_message) "GET /static/css/utilities_styles.css HTTP/1.1" 200 1876
+2021-12-31 07:21:41 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-31 07:21:41 [ INFO    ] (basehttp.log_message) "GET /static/styles.css HTTP/1.1" 200 218208
+2021-12-31 07:21:41 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 200 6278
+2021-12-31 07:21:41 [ INFO    ] (basehttp.log_message) "GET /static/images/icovid-logo.png HTTP/1.1" 200 6278
+2021-12-31 07:21:41 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-31 07:21:41 [ WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-12-31 07:21:41 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3405
+2021-12-31 07:21:41 [ WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 3405
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /forum HTTP/1.1" 301 0
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /forum HTTP/1.1" 301 0
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5208
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5208
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /static/css/style.css HTTP/1.1" 200 218205
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /static/css/style.css HTTP/1.1" 200 218205
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:21:45 [ WARNING ] (log.log_response) Not Found: /forum/assets/favicon.ico
+2021-12-31 07:21:45 [ WARNING ] (log.log_response) Not Found: /forum/assets/favicon.ico
+2021-12-31 07:21:45 [ WARNING ] (basehttp.log_message) "GET /forum/assets/favicon.ico HTTP/1.1" 404 4680
+2021-12-31 07:21:45 [ WARNING ] (basehttp.log_message) "GET /forum/assets/favicon.ico HTTP/1.1" 404 4680
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-31 07:21:45 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-31 07:21:49 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 07:21:49 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 07:21:50 [ INFO    ] (basehttp.log_message) "GET /news/ HTTP/1.1" 200 4145
+2021-12-31 07:21:50 [ INFO    ] (basehttp.log_message) "GET /news/ HTTP/1.1" 200 4145
+2021-12-31 07:21:51 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:21:51 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:21:51 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-31 07:21:51 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-31 07:21:52 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5208
+2021-12-31 07:21:52 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5208
+2021-12-31 07:21:52 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:21:52 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:21:53 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-31 07:21:53 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 2469
+2021-12-31 07:21:54 [ INFO    ] (basehttp.log_message) "GET /auth/login HTTP/1.1" 301 0
+2021-12-31 07:21:54 [ INFO    ] (basehttp.log_message) "GET /auth/login HTTP/1.1" 301 0
+2021-12-31 07:21:54 [ INFO    ] (basehttp.log_message) "GET /auth/login/ HTTP/1.1" 200 4024
+2021-12-31 07:21:54 [ INFO    ] (basehttp.log_message) "GET /auth/login/ HTTP/1.1" 200 4024
+2021-12-31 07:21:55 [ INFO    ] (basehttp.log_message) "GET /static/css/form.css HTTP/1.1" 200 387
+2021-12-31 07:21:55 [ INFO    ] (basehttp.log_message) "GET /static/css/form.css HTTP/1.1" 200 387
+2021-12-31 07:21:55 [ INFO    ] (basehttp.log_message) "GET /static/css/index.css HTTP/1.1" 200 1111
+2021-12-31 07:21:55 [ INFO    ] (basehttp.log_message) "GET /static/css/index.css HTTP/1.1" 200 1111
+2021-12-31 07:21:55 [ INFO    ] (basehttp.log_message) "GET /static/icovid.svg HTTP/1.1" 200 4292
+2021-12-31 07:21:55 [ INFO    ] (basehttp.log_message) "GET /static/icovid.svg HTTP/1.1" 200 4292
+2021-12-31 07:21:56 [ INFO    ] (basehttp.log_message) "GET /static/background.jpg HTTP/1.1" 200 376611
+2021-12-31 07:21:56 [ INFO    ] (basehttp.log_message) "GET /static/background.jpg HTTP/1.1" 200 376611
+2021-12-31 07:22:05 [ WARNING ] (log.log_response) Bad Request: /auth/api/login/
+2021-12-31 07:22:05 [ WARNING ] (log.log_response) Bad Request: /auth/api/login/
+2021-12-31 07:22:05 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 400 57
+2021-12-31 07:22:05 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 400 57
+2021-12-31 07:22:09 [ INFO    ] (basehttp.log_message) "GET /auth/signup/ HTTP/1.1" 200 5835
+2021-12-31 07:22:09 [ INFO    ] (basehttp.log_message) "GET /auth/signup/ HTTP/1.1" 200 5835
+2021-12-31 07:22:20 [ INFO    ] (basehttp.log_message) "POST /auth/api/signup/ HTTP/1.1" 200 68
+2021-12-31 07:22:20 [ INFO    ] (basehttp.log_message) "POST /auth/api/signup/ HTTP/1.1" 200 68
+2021-12-31 07:22:20 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20058
+2021-12-31 07:22:20 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20058
+2021-12-31 07:22:21 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:21 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:21 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:21 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:26 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5287
+2021-12-31 07:22:26 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5287
+2021-12-31 07:22:26 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:26 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:26 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:26 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:28 [ INFO    ] (basehttp.log_message) "GET /news/ HTTP/1.1" 200 4254
+2021-12-31 07:22:28 [ INFO    ] (basehttp.log_message) "GET /news/ HTTP/1.1" 200 4254
+2021-12-31 07:22:28 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:28 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:28 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:28 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:30 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5287
+2021-12-31 07:22:30 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 5287
+2021-12-31 07:22:30 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:30 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:30 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:30 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /forum/postToForum/ HTTP/1.1" 200 7238
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /forum/postToForum/ HTTP/1.1" 200 7238
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /static/js/slugify.js HTTP/1.1" 200 510
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /static/js/slugify.js HTTP/1.1" 200 510
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:32 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:32 [ WARNING ] (log.log_response) Not Found: /forum/postToForum/assets/favicon.ico
+2021-12-31 07:22:32 [ WARNING ] (log.log_response) Not Found: /forum/postToForum/assets/favicon.ico
+2021-12-31 07:22:32 [ WARNING ] (basehttp.log_message) "GET /forum/postToForum/assets/favicon.ico HTTP/1.1" 404 4716
+2021-12-31 07:22:32 [ WARNING ] (basehttp.log_message) "GET /forum/postToForum/assets/favicon.ico HTTP/1.1" 404 4716
+2021-12-31 07:22:44 [ INFO    ] (basehttp.log_message) "POST /forum/postToForum/ HTTP/1.1" 302 0
+2021-12-31 07:22:44 [ INFO    ] (basehttp.log_message) "POST /forum/postToForum/ HTTP/1.1" 302 0
+2021-12-31 07:22:47 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 7114
+2021-12-31 07:22:47 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 7114
+2021-12-31 07:22:47 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:47 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:47 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:47 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:50 [ INFO    ] (basehttp.log_message) "GET /forum/postToForum/ HTTP/1.1" 200 7238
+2021-12-31 07:22:50 [ INFO    ] (basehttp.log_message) "GET /forum/postToForum/ HTTP/1.1" 200 7238
+2021-12-31 07:22:50 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:50 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:22:50 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:22:50 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "POST /forum/postToForum/ HTTP/1.1" 302 0
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "POST /forum/postToForum/ HTTP/1.1" 302 0
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 8935
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 8935
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:03 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:10 [ INFO    ] (basehttp.log_message) "GET /forum/postToForum/ HTTP/1.1" 200 7238
+2021-12-31 07:23:10 [ INFO    ] (basehttp.log_message) "GET /forum/postToForum/ HTTP/1.1" 200 7238
+2021-12-31 07:23:10 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:23:10 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:23:10 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:10 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "POST /forum/postToForum/ HTTP/1.1" 302 0
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "POST /forum/postToForum/ HTTP/1.1" 302 0
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 10778
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 10778
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:24 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:23:47 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:23:47 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:23:49 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:23:49 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:24:41 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:24:41 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:24:42 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:24:42 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:24:42 [ INFO    ] (basehttp.log_message) "GET /forum/getForumList HTTP/1.1" 301 0
+2021-12-31 07:24:42 [ INFO    ] (basehttp.log_message) "GET /forum/getForumList HTTP/1.1" 301 0
+2021-12-31 07:24:43 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 54, in forum_post_detail
+    forumPost = ForumPost.objects.get(slug=slug)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+forum.models.ForumPost.DoesNotExist: ForumPost matching query does not exist.
+2021-12-31 07:24:43 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 54, in forum_post_detail
+    forumPost = ForumPost.objects.get(slug=slug)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+forum.models.ForumPost.DoesNotExist: ForumPost matching query does not exist.
+2021-12-31 07:24:43 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 82303
+2021-12-31 07:24:43 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 82303
+2021-12-31 07:30:28 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:30:28 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:30:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:30:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:30:31 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:30:31 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:30:32 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:30:32 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:30:38 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 55, in forum_post_detail
+    forumPost = ForumPost.objects.get(slug=slug)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+forum.models.ForumPost.DoesNotExist: ForumPost matching query does not exist.
+2021-12-31 07:30:38 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 55, in forum_post_detail
+    forumPost = ForumPost.objects.get(slug=slug)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+forum.models.ForumPost.DoesNotExist: ForumPost matching query does not exist.
+2021-12-31 07:30:38 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 82303
+2021-12-31 07:30:38 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 82303
+2021-12-31 07:30:54 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 55, in forum_post_detail
+    forumPost = ForumPost.objects.get(slug=slug)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+forum.models.ForumPost.DoesNotExist: ForumPost matching query does not exist.
+2021-12-31 07:30:54 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 55, in forum_post_detail
+    forumPost = ForumPost.objects.get(slug=slug)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+forum.models.ForumPost.DoesNotExist: ForumPost matching query does not exist.
+2021-12-31 07:30:54 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 82166
+2021-12-31 07:30:54 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 82166
+2021-12-31 07:31:46 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 07:31:46 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 07:31:48 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:31:48 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:31:51 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 17, in get_forum_list
+    "author": author,
+NameError: name 'author' is not defined
+2021-12-31 07:31:51 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 17, in get_forum_list
+    "author": author,
+NameError: name 'author' is not defined
+2021-12-31 07:31:51 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77049
+2021-12-31 07:31:51 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77049
+2021-12-31 07:34:14 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:14 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:16 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:16 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:21 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 17, in get_forum_list
+    "author": author.username,
+NameError: name 'author' is not defined
+2021-12-31 07:34:21 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 17, in get_forum_list
+    "author": author.username,
+NameError: name 'author' is not defined
+2021-12-31 07:34:21 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77067
+2021-12-31 07:34:21 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77067
+2021-12-31 07:34:22 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 17, in get_forum_list
+    "author": author.username,
+NameError: name 'author' is not defined
+2021-12-31 07:34:22 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 17, in get_forum_list
+    "author": author.username,
+NameError: name 'author' is not defined
+2021-12-31 07:34:22 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77067
+2021-12-31 07:34:22 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77067
+2021-12-31 07:34:33 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:33 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:35 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 18, in get_forum_list
+    "topic": topic,
+NameError: name 'topic' is not defined
+2021-12-31 07:34:35 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 18, in get_forum_list
+    "topic": topic,
+NameError: name 'topic' is not defined
+2021-12-31 07:34:35 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77042
+2021-12-31 07:34:35 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77042
+2021-12-31 07:34:42 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:42 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:57 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:57 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:34:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:34:59 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 23, in get_forum_list
+    ret.append(tmp)
+NameError: name 'tmp' is not defined
+2021-12-31 07:34:59 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 23, in get_forum_list
+    ret.append(tmp)
+NameError: name 'tmp' is not defined
+2021-12-31 07:34:59 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77452
+2021-12-31 07:34:59 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 77452
+2021-12-31 07:35:08 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:35:08 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:35:09 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:35:09 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:35:10 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 25, in get_forum_list
+    data = json.dumps(ret)
+NameError: name 'json' is not defined
+2021-12-31 07:35:10 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 25, in get_forum_list
+    data = json.dumps(ret)
+NameError: name 'json' is not defined
+2021-12-31 07:35:10 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 78355
+2021-12-31 07:35:10 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 78355
+2021-12-31 07:35:27 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:35:27 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:35:28 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:35:28 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:35:29 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 26, in get_forum_list
+    data = json.dumps(ret)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+2021-12-31 07:35:29 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 26, in get_forum_list
+    data = json.dumps(ret)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+2021-12-31 07:35:29 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 100493
+2021-12-31 07:35:29 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 100493
+2021-12-31 07:35:58 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:35:58 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:36:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:36:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:36:01 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 26, in get_forum_list
+    data = json.dumps(ret)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2021-12-31 07:36:01 [ ERROR   ] (log.log_response) Internal Server Error: /forum/getForumList/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 26, in get_forum_list
+    data = json.dumps(ret)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\bhism\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2021-12-31 07:36:01 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 100569
+2021-12-31 07:36:01 [ ERROR   ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 500 100569
+2021-12-31 07:36:59 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:36:59 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:37:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:37:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:37:10 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:37:10 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:37:12 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:37:12 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:37:13 [ INFO    ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 200 437
+2021-12-31 07:37:13 [ INFO    ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 200 437
+2021-12-31 07:41:44 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:41:44 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 07:41:46 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:41:46 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 07:41:47 [ INFO    ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 200 371
+2021-12-31 07:41:47 [ INFO    ] (basehttp.log_message) "GET /forum/getForumList/ HTTP/1.1" 200 371
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 10814
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /forum/ HTTP/1.1" 200 10814
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /static/css/style.css HTTP/1.1" 304 0
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /static/css/style.css HTTP/1.1" 304 0
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:46:03 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:46:04 [ INFO    ] (basehttp.log_message) "GET /forum/posts/lkjhg-asdfg/ HTTP/1.1" 200 12024
+2021-12-31 07:46:04 [ INFO    ] (basehttp.log_message) "GET /forum/posts/lkjhg-asdfg/ HTTP/1.1" 200 12024
+2021-12-31 07:46:04 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:46:04 [ INFO    ] (basehttp.log_message) "GET /administrator/get-announcement HTTP/1.1" 302 0
+2021-12-31 07:46:04 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:46:04 [ INFO    ] (basehttp.log_message) "GET /accounts/login/?next=/administrator/get-announcement HTTP/1.1" 200 47
+2021-12-31 07:46:04 [ WARNING ] (log.log_response) Not Found: /forum/posts/lkjhg-asdfg/assets/favicon.ico
+2021-12-31 07:46:04 [ WARNING ] (log.log_response) Not Found: /forum/posts/lkjhg-asdfg/assets/favicon.ico
+2021-12-31 07:46:04 [ WARNING ] (basehttp.log_message) "GET /forum/posts/lkjhg-asdfg/assets/favicon.ico HTTP/1.1" 404 4746
+2021-12-31 07:46:04 [ WARNING ] (basehttp.log_message) "GET /forum/posts/lkjhg-asdfg/assets/favicon.ico HTTP/1.1" 404 4746
+2021-12-31 08:09:34 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\icovid\urls.py changed, reloading.
+2021-12-31 08:09:34 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\icovid\urls.py changed, reloading.
+2021-12-31 08:09:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 08:09:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 08:10:39 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\icovid\urls.py changed, reloading.
+2021-12-31 08:10:39 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\icovid\urls.py changed, reloading.
+2021-12-31 08:10:40 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 08:10:40 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

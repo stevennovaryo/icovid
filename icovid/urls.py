@@ -30,7 +30,6 @@ urlpatterns = [
     path('', index),
     path('forum/', include(forum)),
     path('admin/', admin.site.urls),
-    # path('news/', include(news)),
     path('administrator/', include('utilities.urls')),
     path('profileapp/',include('profileapp.urls')),
     path('', index),
