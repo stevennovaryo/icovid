@@ -5,6 +5,7 @@ from django.http import HttpResponse, JsonResponse
 from django.core import serializers
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
+from django.template.defaultfilters import slugify
 import json
 
 # Create your views here.
@@ -25,6 +26,33 @@ def get_forum_list(request):
 
     data = json.dumps(ret, default=str)
     return HttpResponse(data, content_type='application/json')
+
+def add_new_forum_flutter(request):
+    if request.method == "POST":
+        print(request.user)
+        body_unicode = request.body.decode('utf-8')
+        body = json.loads(body_unicode)
+        print(type(body))
+        body['slug'] = slugify(body['topic'])
+        print(body)
+
+        form = ForumForm(body)
+        # print(form)
+
+        instance = form.save(commit=False)
+        instance.author = request.user
+        print(instance)
+        instance.save()
+        try:
+            return HttpResponse(status=200)
+        except:
+            print("An error occurred")
+            return HttpResponse(body, content_type='application/json')
+            # return HttpResponse("An error occurred", status=400, content_type="text/plain")
+    
+    return HttpResponse("Wrong Method Used", status=405, content_type="text/plain")
+
+
 
 
 def index(request):

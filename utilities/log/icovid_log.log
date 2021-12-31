@@ -1476,3 +1476,927 @@ TypeError: Object of type datetime is not JSON serializable
 2021-12-31 10:46:56 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\home\views.py changed, reloading.
 2021-12-31 10:46:57 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 2021-12-31 10:46:57 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 11:20:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 11:20:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 11:21:19 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 11:21:19 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 11:21:57 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 11:21:57 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 11:21:57 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 11:21:57 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 11:21:58 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 11:21:58 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 11:21:58 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 11:21:58 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 11:21:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 11:21:58 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 11:21:59 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:21:59 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:01 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:01 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:02 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:02 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:03 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:03 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:04 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 11:22:04 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:04:09 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 14:04:09 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 14:40:41 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 14:40:41 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 14:40:41 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 14:40:41 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 14:40:41 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 14:40:41 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 14:40:41 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 14:40:41 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 14:40:41 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 14:40:41 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 14:40:42 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:40:42 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:40:45 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:40:45 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:40:46 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:40:46 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:05 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:05 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:24 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 14:42:24 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 14:42:24 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 14:42:24 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 14:42:24 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 14:42:24 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 14:42:25 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 14:42:25 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 14:42:25 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 14:42:25 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 14:42:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:28 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:42:28 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:43:32 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:43:32 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:47:55 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:47:55 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:48:55 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:48:55 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:58:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:58:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:59:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 14:59:27 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:00:53 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 15:00:53 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 15:00:53 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 15:00:53 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 15:00:53 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 15:00:53 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 15:00:53 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 15:00:53 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 15:00:53 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 15:00:53 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 15:00:55 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:00:55 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:00:58 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:00:58 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:01:58 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:01:58 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:02:03 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:02:03 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:18:54 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:18:54 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:19:04 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:19:04 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:19:04 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 4679
+2021-12-31 15:19:04 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 4679
+2021-12-31 15:26:21 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 15:26:21 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 15:26:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:26:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:33:26 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:33:26 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:33:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:33:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:36:09 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:36:09 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:36:10 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:36:10 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:36:45 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:36:45 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:36:46 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:36:46 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:37:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:37:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:37:15 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:37:15 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:37:15 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 5051
+2021-12-31 15:37:15 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 5051
+2021-12-31 15:37:18 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:37:18 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:38:23 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:38:23 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:38:23 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 5051
+2021-12-31 15:38:23 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 5051
+2021-12-31 15:39:02 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:39:02 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:39:10 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:39:10 [ WARNING ] (log.log_response) Not Found: /forum/api/addPosts/
+2021-12-31 15:39:10 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 5051
+2021-12-31 15:39:10 [ WARNING ] (basehttp.log_message) "POST /forum/api/addPosts/ HTTP/1.1" 404 5051
+2021-12-31 15:40:35 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:40:35 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:40:44 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001C231E991C0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:40:44 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001C231E991C0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:40:44 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79627
+2021-12-31 15:40:44 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79627
+2021-12-31 15:40:45 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:40:45 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:41:28 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:41:28 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:41:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:41:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:41:35 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:41:35 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:41:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:41:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:41:56 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x00000260FD62D0A0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:41:56 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x00000260FD62D0A0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:41:56 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79621
+2021-12-31 15:41:56 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79621
+2021-12-31 15:41:58 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:41:58 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:44:25 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:44:25 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:44:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:44:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:44:41 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:44:41 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:45:45 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:45:45 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:45:47 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:45:47 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:45:49 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:45:49 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:45:58 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:45:58 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:48:39 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:48:39 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:48:45 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:48:45 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:48:52 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:48:52 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:49:05 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:49:05 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:49:06 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:49:06 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:49:08 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:49:08 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:49:17 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:49:17 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 15:49:34 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:49:34 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:49:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:49:35 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:49:41 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:49:41 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:49:58 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 38, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000018B0ED91D30>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:49:58 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 38, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000018B0ED91D30>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:49:58 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79672
+2021-12-31 15:49:58 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79672
+2021-12-31 15:50:38 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:50:38 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:50:39 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:50:39 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:50:58 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:50:58 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:50:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:50:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:51:08 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:51:08 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:51:15 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 39, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002A93B667BE0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:51:15 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 39, in add_new_forum
+    newForum.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002A93B667BE0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:51:15 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79686
+2021-12-31 15:51:15 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79686
+2021-12-31 15:53:04 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:53:04 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:53:04 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:53:04 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:53:10 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:53:10 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:53:11 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:53:11 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:53:16 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:53:16 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:53:24 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'request.user'": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:53:24 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'request.user'": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:53:24 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85285
+2021-12-31 15:53:24 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85285
+2021-12-31 15:54:44 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:54:44 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:54:45 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:54:45 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:56:54 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:56:54 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:56:56 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:56:56 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:57:33 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:57:33 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:57:41 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'request.user'": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:57:41 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'request.user'": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:57:41 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85297
+2021-12-31 15:57:41 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85297
+2021-12-31 15:58:07 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:58:07 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:58:08 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:58:08 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:58:08 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:58:08 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:58:18 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'request.user'": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:58:18 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'request.user'": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:58:18 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85323
+2021-12-31 15:58:18 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85323
+2021-12-31 15:59:26 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:59:26 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 15:59:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:59:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 15:59:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:59:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 15:59:38 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 38, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002240DE98550>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:59:38 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 38, in add_new_forum
+    newForum = ForumPost(
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\base.py", line 485, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000002240DE98550>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 15:59:38 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85740
+2021-12-31 15:59:38 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 85740
+2021-12-31 16:01:21 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:01:21 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:01:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:01:22 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:01:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:01:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:01:45 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:01:45 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:01:48 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:01:48 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:01:55 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:01:55 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:02:05 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 16:02:05 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 16:06:45 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 16:06:45 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\urls.py changed, reloading.
+2021-12-31 16:06:46 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:06:46 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:06:48 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:06:48 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:06:49 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:06:49 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:07:09 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:07:09 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:07:10 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:07:10 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:07:14 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:07:14 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:07:22 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 35, in add_new_forum_flutter
+    print(body.type)
+AttributeError: 'dict' object has no attribute 'type'
+2021-12-31 16:07:22 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 35, in add_new_forum_flutter
+    print(body.type)
+AttributeError: 'dict' object has no attribute 'type'
+2021-12-31 16:07:22 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74469
+2021-12-31 16:07:22 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74469
+2021-12-31 16:07:59 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:07:59 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:08:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:08:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:08:01 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:08:01 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:08:09 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 16:08:09 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 16
+2021-12-31 16:09:06 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:09:06 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:09:07 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:09:07 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:09:14 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:09:14 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:09:15 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:09:15 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:09:21 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:09:21 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:09:27 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 20
+2021-12-31 16:09:27 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 20
+2021-12-31 16:10:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:10:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:10:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:10:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:10:55 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:10:55 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:10:56 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:10:56 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:10:59 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:10:59 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:11:07 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 20
+2021-12-31 16:11:07 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 20
+2021-12-31 16:12:20 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:12:20 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:12:21 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:12:21 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:12:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:12:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:12:31 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 42, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000025E970669A0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:12:31 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 42, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000025E970669A0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:12:31 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79902
+2021-12-31 16:12:31 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79902
+2021-12-31 16:12:47 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:12:47 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:12:48 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:12:48 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:12:51 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:12:51 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:12:58 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 43, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001DD7CE214C0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:12:58 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 43, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001DD7CE214C0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:12:58 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79975
+2021-12-31 16:12:58 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79975
+2021-12-31 16:13:25 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:13:25 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:13:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:13:27 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:13:28 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:13:28 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:13:36 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000020FAB3E69D0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:13:36 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000020FAB3E69D0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:13:36 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79958
+2021-12-31 16:13:36 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79958
+2021-12-31 16:13:46 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:13:46 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:13:47 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:13:47 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:13:48 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:13:48 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:13:57 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000023C3E241490>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:13:57 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000023C3E241490>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:13:57 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79896
+2021-12-31 16:13:57 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79896
+2021-12-31 16:14:59 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:14:59 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:15:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:15:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:15:05 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:15:05 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:15:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:15:30 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:15:31 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 45, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001E12E122AC0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:15:31 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 45, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001E12E122AC0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:15:31 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79893
+2021-12-31 16:15:31 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79893
+2021-12-31 16:17:56 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:17:56 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:17:57 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:17:57 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:18:03 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:18:03 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:18:04 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:18:04 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:18:12 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:18:12 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:18:12 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000028AE3BFA9A0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:18:12 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000028AE3BFA9A0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:18:12 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79866
+2021-12-31 16:18:12 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79866
+2021-12-31 16:20:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:20:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:20:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:20:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:20:52 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:20:52 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:20:53 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:20:53 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:21:00 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 43, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001D2BB829250>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:21:00 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 43, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001D2BB829250>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:21:00 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79887
+2021-12-31 16:21:00 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79887
+2021-12-31 16:21:01 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:21:01 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:28:46 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 302 0
+2021-12-31 16:28:46 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 302 0
+2021-12-31 16:28:46 [ INFO    ] (basehttp.log_message) "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2021-12-31 16:28:46 [ INFO    ] (basehttp.log_message) "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/login.css HTTP/1.1" 200 939
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/login.css HTTP/1.1" 200 939
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+2021-12-31 16:28:47 [ INFO    ] (basehttp.log_message) "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+2021-12-31 16:28:54 [ INFO    ] (basehttp.log_message) "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+2021-12-31 16:28:54 [ INFO    ] (basehttp.log_message) "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2383
+2021-12-31 16:28:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+2021-12-31 16:28:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+2021-12-31 16:29:34 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:29:34 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:29:41 [ INFO    ] (basehttp.log_message) "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2021-12-31 16:29:41 [ INFO    ] (basehttp.log_message) "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2021-12-31 16:29:41 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10074
+2021-12-31 16:29:41 [ INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10074
+2021-12-31 16:29:42 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+2021-12-31 16:29:42 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+2021-12-31 16:29:42 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2021-12-31 16:29:42 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2021-12-31 16:29:42 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2021-12-31 16:29:42 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /admin/account/emailaddress/ HTTP/1.1" 200 10657
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /admin/account/emailaddress/ HTTP/1.1" 200 10657
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2021-12-31 16:29:46 [ INFO    ] (basehttp.log_message) "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2021-12-31 16:29:52 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:29:52 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:29:52 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:29:52 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/1/change/ HTTP/1.1" 200 15536
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/1/change/ HTTP/1.1" 200 15536
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2021-12-31 16:29:54 [ INFO    ] (basehttp.log_message) "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2021-12-31 16:30:00 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:30:00 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:30:01 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/2/change/ HTTP/1.1" 200 15527
+2021-12-31 16:30:01 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/2/change/ HTTP/1.1" 200 15527
+2021-12-31 16:30:01 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:30:01 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:30:06 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:30:06 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:30:07 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/1/change/ HTTP/1.1" 200 15536
+2021-12-31 16:30:07 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/1/change/ HTTP/1.1" 200 15536
+2021-12-31 16:30:07 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:30:07 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:30:13 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:30:13 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/ HTTP/1.1" 200 11089
+2021-12-31 16:30:17 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/2/change/ HTTP/1.1" 200 15527
+2021-12-31 16:30:17 [ INFO    ] (basehttp.log_message) "GET /admin/profileapp/profile/2/change/ HTTP/1.1" 200 15527
+2021-12-31 16:30:17 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:30:17 [ INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+2021-12-31 16:32:16 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:32:16 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:32:17 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:32:17 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:32:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:32:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 16:32:29 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001EDE5C66070>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:32:29 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x000001EDE5C66070>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 16:32:29 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79886
+2021-12-31 16:32:29 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79886
+2021-12-31 16:43:47 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:43:47 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 16:43:48 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 16:43:48 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
