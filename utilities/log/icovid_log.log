@@ -1168,3 +1168,5 @@ TypeError: Object of type date is not JSON serializable
 2021-12-30 23:22:16 [ WARNING ] (log.log_response) Method Not Allowed: /home/add-data
 2021-12-30 23:22:16 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
 2021-12-30 23:22:16 [ WARNING ] (basehttp.log_message) "GET /home/add-data HTTP/1.1" 405 16
+2021-12-31 10:02:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 10:02:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
