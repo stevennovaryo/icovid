@@ -84,6 +84,7 @@ def get_article(request):
         dict = {
                 "title" : i.title,
                 "summary" : i.summary,
+                "imageURL" : i.articleImage,
                 "body" : i.body,
                 "postDate" : str(i.postDate),
         }
@@ -93,3 +94,13 @@ def get_article(request):
     data = json.dumps(articles_list)
 
     return HttpResponse(data, content_type='application/json')
+
+@csrf_exempt
+def post_flutter(request):
+    data = json.loads(request.body)
+    form = articleForm(data)
+    form.save()
+
+    response = HttpResponse('success')
+    response.status_code = 200
+    return response
