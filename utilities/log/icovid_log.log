@@ -2749,3 +2749,343 @@ ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.Anonym
 2021-12-31 10:02:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 2021-12-31 10:02:29 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 >>>>>>> a63770b7a01a6277380209b33ecc9f92c7df3801
+2021-12-31 17:20:58 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 17:20:58 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 17:22:42 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:22:42 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:22:42 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:22:42 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:22:42 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:22:42 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:22:42 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:22:42 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:22:42 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:22:42 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:22:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:22:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:43:04 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:43:04 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:43:04 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:43:04 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:43:04 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:43:04 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:43:04 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:43:04 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:43:04 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:43:04 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:43:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:43:06 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:44:04 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:44:04 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:48:37 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:48:37 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:49:05 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:49:05 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:49:48 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:49:48 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:49:48 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:49:48 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:49:48 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:49:48 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:49:48 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:49:48 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:49:48 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:49:48 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:49:50 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:49:50 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:51:06 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:51:06 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 17:51:06 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:51:06 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 17:51:07 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:51:07 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 17:51:07 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:51:07 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 17:51:07 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:51:07 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 17:51:09 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:51:09 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:51:17 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /forum/api/addForum/
+2021-12-31 17:51:17 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /forum/api/addForum/
+2021-12-31 17:51:17 [ WARNING ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 403 2870
+2021-12-31 17:51:17 [ WARNING ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 403 2870
+2021-12-31 17:51:18 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:51:18 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:52:38 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 17:52:38 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 17:52:39 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 17:52:39 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 17:53:11 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 17:53:11 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 17:53:12 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 17:53:12 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 17:53:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:53:23 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 17:53:23 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000022BCB9092E0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 17:53:23 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 44, in add_new_forum_flutter
+    instance.author = request.user
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\db\models\fields\related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000022BCB9092E0>>": "ForumPost.author" must be a "User" instance.
+2021-12-31 17:53:23 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79876
+2021-12-31 17:53:23 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 79876
+2021-12-31 19:58:03 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 19:58:03 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:30:58 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:30:58 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:31:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:31:00 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:31:24 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 20:31:24 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 20:31:24 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 20:31:24 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 20:31:24 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:31:24 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:31:24 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 20:31:24 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 20:31:24 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:31:24 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:31:26 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:31:26 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:31:35 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:31:35 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:32:17 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:32:17 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:32:18 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:32:18 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:32:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:32:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:33:25 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:33:25 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:36:25 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 25
+2021-12-31 20:36:25 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 25
+2021-12-31 20:36:25 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:36:25 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:36:54 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:36:54 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:36:56 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:36:56 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:37:53 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:37:53 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:37:55 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:37:55 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:37:57 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:37:57 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:37:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:37:59 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:38:09 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:38:09 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:38:11 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:38:11 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:38:15 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:38:15 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:38:16 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:38:16 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:38:16 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74395
+2021-12-31 20:38:16 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74395
+2021-12-31 20:38:29 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:38:29 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:38:29 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74401
+2021-12-31 20:38:29 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74401
+2021-12-31 20:38:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:38:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:38:40 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:38:40 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:38:41 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:38:41 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:38:59 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:38:59 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:38:59 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:38:59 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 36, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:38:59 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74433
+2021-12-31 20:38:59 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74433
+2021-12-31 20:41:02 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:41:02 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:41:04 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:41:04 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:41:08 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:41:08 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:41:09 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:41:09 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:41:13 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:41:13 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:41:14 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:41:14 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:41:21 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:41:21 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:41:21 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:41:21 [ ERROR   ] (log.log_response) Internal Server Error: /forum/api/addForum/
+Traceback (most recent call last):
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py", line 37, in add_new_forum_flutter
+    user = User.objects.get(username = body['username'])
+KeyError: 'username'
+2021-12-31 20:41:21 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74385
+2021-12-31 20:41:21 [ ERROR   ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 500 74385
+2021-12-31 20:42:26 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 20:42:26 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 20:42:26 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 20:42:26 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 20:42:26 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:42:26 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:42:26 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 20:42:26 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 20:42:27 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:42:27 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:42:28 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:42:28 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:42:40 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:42:40 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 371
+2021-12-31 20:42:40 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:42:40 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:43:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:43:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:43:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:43:44 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:44:04 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:44:04 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:44:04 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 588
+2021-12-31 20:44:04 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 588
+2021-12-31 20:45:15 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 20:45:15 [ WARNING ] (log.log_response) Forbidden (CSRF cookie not set.): /auth/api/login/
+2021-12-31 20:45:15 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 20:45:15 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2870
+2021-12-31 20:45:15 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:45:15 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:45:15 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 20:45:15 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 13232
+2021-12-31 20:45:16 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:45:16 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:45:17 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 588
+2021-12-31 20:45:17 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 588
+2021-12-31 20:45:26 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 588
+2021-12-31 20:45:26 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 588
+2021-12-31 20:45:26 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:45:26 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:45:44 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 20
+2021-12-31 20:45:44 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 20
+2021-12-31 20:45:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 713
+2021-12-31 20:45:44 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 713
+2021-12-31 20:46:10 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:46:10 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:46:10 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 852
+2021-12-31 20:46:10 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 852
+2021-12-31 20:46:41 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:46:41 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:46:41 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 981
+2021-12-31 20:46:41 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 981
+2021-12-31 20:47:08 [ WARNING ] (log.log_response) Forbidden (CSRF token missing or incorrect.): /auth/api/login/
+2021-12-31 20:47:08 [ WARNING ] (log.log_response) Forbidden (CSRF token missing or incorrect.): /auth/api/login/
+2021-12-31 20:47:08 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2519
+2021-12-31 20:47:08 [ WARNING ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 403 2519
+2021-12-31 20:47:08 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:47:08 [ INFO    ] (basehttp.log_message) "GET /home HTTP/1.1" 301 0
+2021-12-31 20:47:08 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20058
+2021-12-31 20:47:08 [ INFO    ] (basehttp.log_message) "GET /home/ HTTP/1.1" 200 20058
+2021-12-31 20:47:08 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:47:08 [ INFO    ] (basehttp.log_message) "POST /auth/api/login/ HTTP/1.1" 200 28
+2021-12-31 20:47:11 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 981
+2021-12-31 20:47:11 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 981
+2021-12-31 20:47:29 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:47:29 [ INFO    ] (basehttp.log_message) "POST /forum/api/addForum/ HTTP/1.1" 200 0
+2021-12-31 20:47:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 1121
+2021-12-31 20:47:29 [ INFO    ] (basehttp.log_message) "GET /forum/api/ForumHome/ HTTP/1.1" 200 1121
+2021-12-31 20:48:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:48:43 [ INFO    ] (autoreload.trigger_reload) D:\bhism\Desktop\Kuliah\Semester 3\PBP\icovid\forum\views.py changed, reloading.
+2021-12-31 20:48:45 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-12-31 20:48:45 [ INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

@@ -27,23 +27,24 @@ def get_forum_list(request):
     data = json.dumps(ret, default=str)
     return HttpResponse(data, content_type='application/json')
 
+@csrf_exempt
 def add_new_forum_flutter(request):
     if request.method == "POST":
-        print(request.user)
         body_unicode = request.body.decode('utf-8')
         body = json.loads(body_unicode)
-        print(type(body))
-        body['slug'] = slugify(body['topic'])
-        print(body)
-
-        form = ForumForm(body)
-        # print(form)
-
-        instance = form.save(commit=False)
-        instance.author = request.user
-        print(instance)
-        instance.save()
+        
+        user = User.objects.get(username = body['username'])
+            
         try:
+            body['slug'] = slugify(body['topic'])
+            body.pop('username')
+
+            form = ForumForm(body)
+            # print(form)
+
+            instance = form.save(commit=False)
+            instance.author = user
+            instance.save()
             return HttpResponse(status=200)
         except:
             print("An error occurred")
@@ -92,8 +93,6 @@ def forum_post_detail(request, slug):
     form_data = {}
     if request.method == 'POST' and request.is_ajax():
         description = request.POST.get('description')
-
-        print(description)
 
         response_data = {'description':description, 'author': request.user.get_username()}
 
